@@ -1,6 +1,6 @@
-package Buat_Soal;
+package coba;
 
-public class SebaranMultinom {
+public class varArg {
     public static void main(String[] args) {
         /*
         misal k = 3
@@ -10,18 +10,17 @@ public class SebaranMultinom {
         hasil sebaran multinom 0.1127
          */
 
-        int[] xAr = {2, 1 ,3};
-        double[] pAr = {(double)2/9, (double)1/6, (double)11/18};
-        int n = 6;
-        System.out.println(sebaranMultinom(xAr, pAr, n));
-        System.out.println();
+        // int[] xAr = {2, 1 ,3};
+        // double[] pAr = {(double)2/9, (double)1/6, (double)11/18};
+        // int n = 6;
+        // System.out.println(sebaranMultinom(xAr, pAr, n));
+
         System.out.println(sebaranMultinomString("2, 1, 3; 0.2222222, 0.1666666, 0.6111111; 6"));
         System.out.println();
         System.out.println(sebaranMultinomString("2, 1, 3; 2/9, 1/6, 11/18; 6"));
     }
 
     public static double sebaranMultinom(int[] xAr, double[] pAr, int n){
-        System.out.printf("sebaranMultinom(xAr, pAr, n)\n");
         //karena k = banyak jumlah x atau p maka :
         double result = factorial(n);
         for (int i = 0; i < (int)xAr.length; i++){

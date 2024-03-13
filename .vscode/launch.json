@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SebaranMultinom",
+            "request": "launch",
+            "mainClass": "Buat_Soal.SebaranMultinom",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "varArg",
+            "request": "launch",
+            "mainClass": "coba.varArg",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "varArg",
+            "request": "launch",
+            "mainClass": "formatMethod.varArg",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
             "name": "EncDecKey",
             "request": "launch",
             "mainClass": "Mini_Project.EncryptDecrypt.EncDecKey",

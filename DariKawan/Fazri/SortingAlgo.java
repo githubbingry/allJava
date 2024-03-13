@@ -16,7 +16,7 @@ public class SortingAlgo {
             int runs = 10;
             long totalJavaSortTime = 0, totalBubbleSortTime = 0, totalOptimizedBubbleSortTime = 0,
                     totalSelectionSortTime = 0, totalMergeSortTime = 0,
-                    totalQuickSortTime = 0;
+                    totalQuickSortTime = 0, totalASDLBubbleSortTime = 0;
 
             for (int run = 0; run < runs; run++) {
                 // Methodology of Randomized Dataset Characteristics:
@@ -42,8 +42,7 @@ public class SortingAlgo {
                 Arrays.sort(javaSortData);
                 long endTime = System.nanoTime();
                 totalJavaSortTime += (endTime - startTime);
-                System.out.printf("Arrays.sort() Sort Run-%d Time: %d ms\n", (run + 1),
-                        (endTime - startTime) / 1000000);
+                System.out.printf("Arrays.sort() Sort Run-%d Time: %d ms\n", (run + 1),(endTime - startTime) / 1000000);
 
                 // Bubble Sort
                 int[] bubbleData = Arrays.copyOf(data, data.length);
@@ -57,7 +56,7 @@ public class SortingAlgo {
                 startTime = System.nanoTime();
                 asdlBubbleSort(asdlBubbleData);
                 endTime = System.nanoTime();
-                totalBubbleSortTime += (endTime - startTime);
+                totalASDLBubbleSortTime += (endTime - startTime);
                 System.out.printf("ASDL Bubble Sort Run-%d Time: %d ms\n", (run + 1), (endTime - startTime) / 1000000);
 
                 // Optimized Bubble Sort
@@ -96,6 +95,7 @@ public class SortingAlgo {
 
             System.out.println("\nAverage Arrays.sort() Sort time: " + (totalJavaSortTime / runs) / 1000000 + " ms");
             System.out.println("Average Bubble Sort time: " + (totalBubbleSortTime / runs) / 1000000 + " ms");
+            System.out.println("Average ASDL Bubble Sort time: " + (totalASDLBubbleSortTime / runs) / 1000000 + " ms");
             System.out.println("Average Optimized Bubble Sort time: " + (totalOptimizedBubbleSortTime / runs) / 1000000 + " ms");
             System.out.println("Average Selection Sort time: " + (totalSelectionSortTime / runs) / 1000000 + " ms");
             System.out.println("Average Merge Sort time: " + (totalMergeSortTime / runs) / 1000000 + " ms");
@@ -212,7 +212,7 @@ public class SortingAlgo {
         int pivot = data[high];
         int i = (low - 1);
         for (int j = low; j < high; j++) {
-            if (data[j] < pivot) {
+            if (data[j] <= pivot) {
                 i++;
                 int temp = data[i];
                 data[i] = data[j];
