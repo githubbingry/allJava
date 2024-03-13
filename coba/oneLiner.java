@@ -1,0 +1,1 @@
+package coba; import java.util.Scanner; public class oneLiner { public static void main(String[] args) { System.out.print("Enter the 3 number : "); Scanner x = new Scanner(System.in); int a = x.nextInt(), b = x.nextInt(), c = x.nextInt(); double mean = (a+b+c)/3; System.out.printf("The mean is %.1f",mean); x.close(); } }

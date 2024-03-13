@@ -1,0 +1,1946 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "EncDecKey",
+            "request": "launch",
+            "mainClass": "Mini_Project.EncryptDecrypt.EncDecKey",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "EncDecKeyLoop",
+            "request": "launch",
+            "mainClass": "Mini_Project.EncryptDecrypt.EncDecKeyLoop",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "EncodeDecodeBase64",
+            "request": "launch",
+            "mainClass": "GDSC_UNSRI.EncodeDecodeBase64",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "SortingAlgo",
+            "request": "launch",
+            "mainClass": "DariKawan.Fazri.SortingAlgo",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "quickSort",
+            "request": "launch",
+            "mainClass": "formatMethod.quickSort",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "bubbleSort",
+            "request": "launch",
+            "mainClass": "formatMethod.bubbleSort",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "ExampleChapter2",
+            "request": "launch",
+            "mainClass": "Struktur_Diskrit.Example.ExampleChapter2",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "A",
+            "request": "launch",
+            "mainClass": "CodeForces.Contest1926.A",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "testFan",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal8.soal8_8.testFan",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "TestFan",
+            "request": "launch",
+            "mainClass": "DariKawan.Fazri.TestFan",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "testAccount",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal8.soal8_7.testAccount",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "coba",
+            "request": "launch",
+            "mainClass": "DariKawan.Daffarel.coba",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "TestFan",
+            "request": "launch",
+            "mainClass": "DariKawan.Zikri.Tugas_8_7dan8_8.TestFan",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "testAccount",
+            "request": "launch",
+            "mainClass": "DariKawan.Zikri.Tugas_8_7dan8_8.testAccount",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "Account",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal8.soal8_7.Account",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "outputformat",
+            "request": "launch",
+            "mainClass": "Hackerrank.outputformat",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "Testing",
+            "request": "launch",
+            "mainClass": "PASD.Semester2.Testing",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "Rekursif",
+            "request": "launch",
+            "mainClass": "PASD.Semester2.Rekursif",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "coba.Test",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "DataKelompok",
+            "request": "launch",
+            "mainClass": "Probabilitas_Statistika.DataKelompok",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "EncDecBase",
+            "request": "launch",
+            "mainClass": "Mini_Project.EncryptDecrypt.EncDecBase",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "perkenalanBem",
+            "request": "launch",
+            "mainClass": "coba.perkenalanBem",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "convertDec",
+            "request": "launch",
+            "mainClass": "coba.convertDec",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "Example",
+            "request": "launch",
+            "mainClass": "Struktur_Diskrit.Example",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "example1_3_1$huh",
+            "request": "launch",
+            "mainClass": "Struktur_Diskrit.example.example1_3_1$huh",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "Struktur_Diskrit.example.test",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "tesstock",
+            "request": "launch",
+            "mainClass": "DariKawan.Daffarel.tesstock",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "testStock",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal8.soal8_2.testStock",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "SimpanganTengah",
+            "request": "launch",
+            "mainClass": "Probabilitas_Statistika.SimpanganTengah",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "fchry",
+            "request": "launch",
+            "mainClass": "Struktur_Diskrit.example.fchry",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "example1_3_1",
+            "request": "launch",
+            "mainClass": "Struktur_Diskrit.example.example1_3_1",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "example1_2_3",
+            "request": "launch",
+            "mainClass": "Struktur_Diskrit.example.example1_2_3",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "example1_2_1",
+            "request": "launch",
+            "mainClass": "Struktur_Diskrit.example.example1_2_1",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "opRecBEMText",
+            "request": "launch",
+            "mainClass": "coba.opRecBEMText",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "opRecBEM",
+            "request": "launch",
+            "mainClass": "coba.opRecBEM",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "testRectangle",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal8.soal8_1.testRectangle",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "circleTest",
+            "request": "launch",
+            "mainClass": "coba.circleTest",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "Circle",
+            "request": "launch",
+            "mainClass": "coba.Circle",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "PE45",
+            "request": "launch",
+            "mainClass": "Project_Euler.PE45",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "mobil",
+            "request": "launch",
+            "mainClass": "coba.mobil",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "PermainanABC",
+            "request": "launch",
+            "mainClass": "PermainanABC",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "powerOfTwo",
+            "request": "launch",
+            "mainClass": "coba.powerOfTwo",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "XORPiramid",
+            "request": "launch",
+            "mainClass": "CSES.XORPiramid",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "CountingDivisors",
+            "request": "launch",
+            "mainClass": "CSES.CountingDivisors",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "CommonDivisors",
+            "request": "launch",
+            "mainClass": "CSES.CommonDivisors",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "PE277",
+            "request": "launch",
+            "mainClass": "Project_Euler.unsolved.PE277",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "PE668",
+            "request": "launch",
+            "mainClass": "Project_Euler.unsolved.PE668",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "soal45",
+            "request": "launch",
+            "mainClass": "Project_Euler.soal45",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "print",
+            "request": "launch",
+            "mainClass": "coba.print",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "PE625",
+            "request": "launch",
+            "mainClass": "Project_Euler.PE625",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "soal6_11",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal6.soal6_11",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "soal6_10",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal6.soal6_10",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "soal6_9",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal6.soal6_9",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "soal6_8",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal6.soal6_8",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "functionalEquation",
+            "request": "launch",
+            "mainClass": "Buat_Soal.functionalEquation",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "operatorAneh",
+            "request": "launch",
+            "mainClass": "coba.operatorAneh",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "enumOS",
+            "request": "launch",
+            "mainClass": "coba.enumOS",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "soal5_29",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal5.soal5_29",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "soal5_28",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal5.soal5_28",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "indeksPrime",
+            "request": "launch",
+            "mainClass": "formatMethod.indeksPrime",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "soal5_27",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal5.soal5_27",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "soal5_26",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal5.soal5_26",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "soal5_23",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal5.soal5_23",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "soal4_47",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal4.soal4_47",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "soal6_7",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal6.soal6_7",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "soal6_6",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal6.soal6_6",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "soal6_5",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal6.soal6_5",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "angkaTanpaNol",
+            "request": "launch",
+            "mainClass": "coba.angkaTanpaNol",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "soal2_12",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal1dan2.soal2_12",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "testing",
+            "request": "launch",
+            "mainClass": "coba.testing",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "a",
+            "request": "launch",
+            "mainClass": "coba.a",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal6_1",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal6.soal6_1",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal6_2",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal6.soal6_2",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "KisiUAS",
+            "request": "launch",
+            "mainClass": "Soal_Ujian_Pemro.KisiUAS",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Prosedur",
+            "request": "launch",
+            "mainClass": "DariKawan.Juseia.Prosedur",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal6_3",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal6.soal6_3",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "oneLiner",
+            "request": "launch",
+            "mainClass": "coba.oneLiner",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "LatihanUAS",
+            "request": "launch",
+            "mainClass": "DariKawan.Fazri.LatihanUAS",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "ar2D",
+            "request": "launch",
+            "mainClass": "coba.ar2D",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "adtKelas",
+            "request": "launch",
+            "mainClass": "coba.adtKelas",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "EncDecBase",
+            "request": "launch",
+            "mainClass": "Mini_Project.EncryptDecrypt.EncDecBase",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearchUnsortedIndexFinder",
+            "request": "launch",
+            "mainClass": "DariKawan.Fazri.BinarySearchUnsortedIndexFinder",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Soal3",
+            "request": "launch",
+            "mainClass": "PASD.PRE_UAS.Soal3",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Soal1",
+            "request": "launch",
+            "mainClass": "PASD.PRE_UAS.Soal1",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "pattern",
+            "request": "launch",
+            "mainClass": "DariKawan.Andhika.pattern",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Makalah",
+            "request": "launch",
+            "mainClass": "PASD.ADT.Makalah",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "tfisthisshit",
+            "request": "launch",
+            "mainClass": "coba.tfisthisshit",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "detMatriks",
+            "request": "launch",
+            "mainClass": "coba.detMatriks",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "insertionSort",
+            "request": "launch",
+            "mainClass": "formatMethod.insertionSort",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "selectionSort",
+            "request": "launch",
+            "mainClass": "formatMethod.selectionSort",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "binarySearch",
+            "request": "launch",
+            "mainClass": "formatMethod.binarySearch",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "MinimumEuclideanDistance",
+            "request": "launch",
+            "mainClass": "CSES.MinimumEuclideanDistance",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "IncreasingSubArray",
+            "request": "launch",
+            "mainClass": "CSES.IncreasingSubArray",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "SoalQuiz1",
+            "request": "launch",
+            "mainClass": "Soal_Ujian_Pemro.SoalQuiz1",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Permutations",
+            "request": "launch",
+            "mainClass": "CSES.Permutations",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "MissingNumber",
+            "request": "launch",
+            "mainClass": "CSES.MissingNumber",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "PermainanShinobi",
+            "request": "launch",
+            "mainClass": "Code_League.PermainanShinobi",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "GaneshGerbong",
+            "request": "launch",
+            "mainClass": "Code_League.GaneshGerbong",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "PembagianNilai",
+            "request": "launch",
+            "mainClass": "Code_League.PembagianNilai",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "TugasAnya",
+            "request": "launch",
+            "mainClass": "Code_League.TugasAnya",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "YelanShenhe",
+            "request": "launch",
+            "mainClass": "Code_League.YelanShenhe",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "ShanksBelanja",
+            "request": "launch",
+            "mainClass": "Code_League.ShanksBelanja",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "NatanMatriks",
+            "request": "launch",
+            "mainClass": "Code_League.NatanMatriks",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Provider",
+            "request": "launch",
+            "mainClass": "Code_League.Provider",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "PrimeMultiples",
+            "request": "launch",
+            "mainClass": "CSES.PrimeMultiples",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "JosephusQueries",
+            "request": "launch",
+            "mainClass": "CSES.JosephusQueries",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Exponentiation2",
+            "request": "launch",
+            "mainClass": "CSES.Exponentiation2",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Exponentiation",
+            "request": "launch",
+            "mainClass": "CSES.Exponentiation",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "CommonDivisors",
+            "request": "launch",
+            "mainClass": "CSES.CommonDivisors",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "SumofDivisors",
+            "request": "launch",
+            "mainClass": "CSES.SumofDivisors",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "CountingDivisors",
+            "request": "launch",
+            "mainClass": "CSES.CountingDivisors",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal4_26",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal4.soal4_26",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal4_27",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal4.soal4_27",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Program5",
+            "request": "launch",
+            "mainClass": "PASD.ADT.Program5",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal5_4",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal5.soal5_4",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal5_29",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal5.soal5_29",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal5_28",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal5.soal5_28",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "isPrime",
+            "request": "launch",
+            "mainClass": "formatMethod.isPrime",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "doReverse",
+            "request": "launch",
+            "mainClass": "checkSomething.doReverse",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal5_27",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal5.soal5_27",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "checkDigit",
+            "request": "launch",
+            "mainClass": "checkSomething.checkDigit",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "isPalindrome",
+            "request": "launch",
+            "mainClass": "checkBoolean.isPalindrome",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal5_26",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal5.soal5_26",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal4_35",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal4.soal4_35",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "convertDec",
+            "request": "launch",
+            "mainClass": "coba.convertDec",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "decToBin",
+            "request": "launch",
+            "mainClass": "coba.decToBin",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal4_34",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal4.soal4_34",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal3_17",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal3.soal3_17",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal4_47",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal4.soal4_47",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal4_45",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal4.soal4_45",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal4_41",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal4.soal4_41",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal4_7_",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal4.soal4_7_",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal5_14",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal5.soal5_14",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal5_13",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal5.soal5_13",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal5_36",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal5.soal5_36",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal5_35",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal5.soal5_35",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal5_3",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal5.soal5_3",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal5_22",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal5.soal5_22",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal5_21",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal5.soal5_21",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "collatzConjecture",
+            "request": "launch",
+            "mainClass": "coba.collatzConjecture",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "array2D",
+            "request": "launch",
+            "mainClass": "Hackerrank.array2D",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal5_10",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal5.soal5_10",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal5_9",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal5.soal5_9",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal5_8",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal5.soal5_8",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal5_5",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal5.soal5_5",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal5_6",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal5.soal5_6",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal5_2",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal5.soal5_2",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "array",
+            "request": "launch",
+            "mainClass": "coba.array",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "xorSum",
+            "request": "launch",
+            "mainClass": "coba.xorSum",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Towers",
+            "request": "launch",
+            "mainClass": "CSES.Towers",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "XORPiramid",
+            "request": "launch",
+            "mainClass": "CSES.XORPiramid",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "EncDecKey",
+            "request": "launch",
+            "mainClass": "Mini_Project.EncryptDecrypt.EncDecKey",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "EncDecKeyLoop",
+            "request": "launch",
+            "mainClass": "Mini_Project.EncryptDecrypt.EncDecKeyLoop",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "EncryptDecyptKey",
+            "request": "launch",
+            "mainClass": "Mini_Project.EncryptDecyptKey",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Euler",
+            "request": "launch",
+            "mainClass": "Andhika.Euler",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "ZigZag",
+            "request": "launch",
+            "mainClass": "Code_League.ZigZag",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "HitungPulau",
+            "request": "launch",
+            "mainClass": "Code_League.HitungPulau",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "fibonacciCoba",
+            "request": "launch",
+            "mainClass": "coba.fibonacciCoba",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "bagiModule",
+            "request": "launch",
+            "mainClass": "coba.bagiModule",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "DecToBiner",
+            "request": "launch",
+            "mainClass": "Code_League.DecToBiner",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Amstrong",
+            "request": "launch",
+            "mainClass": "Code_League.Amstrong",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "fibonacciRequiem",
+            "request": "launch",
+            "mainClass": "Buat_Soal.fibonacci.fibonacciRequiem",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "fibonacci2",
+            "request": "launch",
+            "mainClass": "Buat_Soal.fibonacci.fibonacci2",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "matriks_",
+            "request": "launch",
+            "mainClass": "coba.matriks_",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "String1D",
+            "request": "launch",
+            "mainClass": "Andhika.String1D",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Sring1D",
+            "request": "launch",
+            "mainClass": "Arief.Sring1D",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "fibonacci",
+            "request": "launch",
+            "mainClass": "Buat_Soal.fibonacci.fibonacci",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "PerkalianMatriks",
+            "request": "launch",
+            "mainClass": "Andhika.PerkalianMatriks",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "tribonacci",
+            "request": "launch",
+            "mainClass": "Buat_Soal.fibonacci.tribonacci",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "tribonacci2",
+            "request": "launch",
+            "mainClass": "Buat_Soal.fibonacci.tribonacci2",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "nth_fibonacci",
+            "request": "launch",
+            "mainClass": "Buat_Soal.fibonacci.nth_fibonacci",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "fibonacci2",
+            "request": "launch",
+            "mainClass": "Buat_Soal.fibonacci2",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "matriks",
+            "request": "launch",
+            "mainClass": "coba.matriks",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "tribonacci2",
+            "request": "launch",
+            "mainClass": "Buat_Soal.tribonacci2",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "fibonacchi2",
+            "request": "launch",
+            "mainClass": "Buat_Soal.fibonacchi2",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "tribonacci",
+            "request": "launch",
+            "mainClass": "Buat_Soal.tribonacci",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "fibonacci",
+            "request": "launch",
+            "mainClass": "Buat_Soal.fibonacci",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "fibonacci",
+            "request": "launch",
+            "mainClass": "coba.fibonacci",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "for1",
+            "request": "launch",
+            "mainClass": "coba.for1",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "EncodeDecodeBase64",
+            "request": "launch",
+            "mainClass": "GDSC_UNSRI.EncodeDecodeBase64",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "PermutasiFazri",
+            "request": "launch",
+            "mainClass": "Fazri.PermutasiFazri",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "PatternAngkaBintang",
+            "request": "launch",
+            "mainClass": "GDSC_UNSRI.PatternAngkaBintang",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "EncryptDecrypt",
+            "request": "launch",
+            "mainClass": "Mini_Project.EncryptDecrypt",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "rekursif1",
+            "request": "launch",
+            "mainClass": "coba.rekursif1",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "rekursif2_",
+            "request": "launch",
+            "mainClass": "coba.rekursif2_",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "EncryptLoop",
+            "request": "launch",
+            "mainClass": "Mini_Project.EncryptLoop",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "checkPrima",
+            "request": "launch",
+            "mainClass": "Buat_Soal.checkPrima",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Soal1",
+            "request": "launch",
+            "mainClass": "Soal_UTS_Pemro.Soal1",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Soal3",
+            "request": "launch",
+            "mainClass": "Soal_UTS_Pemro.Soal3",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Soal2",
+            "request": "launch",
+            "mainClass": "Soal_UTS_Pemro.Soal2",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "stringFormat",
+            "request": "launch",
+            "mainClass": "coba.stringFormat",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Enc_Dec",
+            "request": "launch",
+            "mainClass": "Fazri.Enc_Dec",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "rekursif2",
+            "request": "launch",
+            "mainClass": "coba.rekursif2",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Decrypt",
+            "request": "launch",
+            "mainClass": "Mini_Project.Decrypt",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "checkPrima",
+            "request": "launch",
+            "mainClass": "coba.checkPrima",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Encrypt",
+            "request": "launch",
+            "mainClass": "Mini_Project.Encrypt",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "stringLength",
+            "request": "launch",
+            "mainClass": "coba.stringLength",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Encrypt_",
+            "request": "launch",
+            "mainClass": "Mini_Project.Encrypt_",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "timeNow",
+            "request": "launch",
+            "mainClass": "coba.timeNow",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "executionTime",
+            "request": "launch",
+            "mainClass": "coba.executionTime",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "genap_ganjil",
+            "request": "launch",
+            "mainClass": "coba.genap_ganjil",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "forLoop",
+            "request": "launch",
+            "mainClass": "coba.forLoop",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal4_19",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal4.soal4_19",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal4_17",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal4.soal4_17",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "patternFazri",
+            "request": "launch",
+            "mainClass": "coba.patternFazri",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "rekursif",
+            "request": "launch",
+            "mainClass": "coba.rekursif",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Djio",
+            "request": "launch",
+            "mainClass": "Compe_Prog.Djio",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "patternPiramid",
+            "request": "launch",
+            "mainClass": "coba.patternPiramid",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "oneliner",
+            "request": "launch",
+            "mainClass": "coba.oneliner",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "patternSegitiga",
+            "request": "launch",
+            "mainClass": "coba.patternSegitiga",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "pattern",
+            "request": "launch",
+            "mainClass": "coba.pattern",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal4_18",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal4.soal4_18",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal4_3",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal4.soal4_3",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal4_7",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal4.soal4_7",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "methodProcedure",
+            "request": "launch",
+            "mainClass": "coba.methodProcedure",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "FachryMatriks",
+            "request": "launch",
+            "mainClass": "coba.FachryMatriks",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "AkramSTAN",
+            "request": "launch",
+            "mainClass": "coba.AkramSTAN",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "NabilPendakwah",
+            "request": "launch",
+            "mainClass": "coba.NabilPendakwah",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "method",
+            "request": "launch",
+            "mainClass": "coba.method",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Increase",
+            "request": "launch",
+            "mainClass": "Compe_Prog.Increase",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Kemungkinan",
+            "request": "launch",
+            "mainClass": "Compe_Prog.Kemungkinan",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Anagram",
+            "request": "launch",
+            "mainClass": "Compe_Prog.Anagram",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal4_1",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal4.soal4_1",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal3_11",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal3.soal3_11",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "loop",
+            "request": "launch",
+            "mainClass": "coba.loop",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "xor",
+            "request": "launch",
+            "mainClass": "coba.xor",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal3_8",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal3.soal3_8",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal3__8",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal3.soal3__8",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal3_7",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal3.soal3_7",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "regex_",
+            "request": "launch",
+            "mainClass": "coba.regex_",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal3_6",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal3.soal3_6",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "leapyear",
+            "request": "launch",
+            "mainClass": "coba.leapyear",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal3_9_",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal3.soal3_9_",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Polindrom",
+            "request": "launch",
+            "mainClass": "Andhika.Polindrom",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "KoinHaikal",
+            "request": "launch",
+            "mainClass": "Compe_Prog.KoinHaikal",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "PalinDromos",
+            "request": "launch",
+            "mainClass": "Compe_Prog.PalinDromos",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "prime_",
+            "request": "launch",
+            "mainClass": "Compe_Prog.prime_",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "datatypes_",
+            "request": "launch",
+            "mainClass": "Hackerrank.datatypes_",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "ifelse",
+            "request": "launch",
+            "mainClass": "Hackerrank.ifelse",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "loops1",
+            "request": "launch",
+            "mainClass": "Hackerrank.loops1",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "loops2",
+            "request": "launch",
+            "mainClass": "Hackerrank.loops2",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "outputformat",
+            "request": "launch",
+            "mainClass": "Hackerrank.outputformat",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "stdin1",
+            "request": "launch",
+            "mainClass": "Hackerrank.stdin1",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "stdin2",
+            "request": "launch",
+            "mainClass": "Hackerrank.stdin2",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "welcome",
+            "request": "launch",
+            "mainClass": "Hackerrank.welcome",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Program1_IfElse",
+            "request": "launch",
+            "mainClass": "PASD.Program1_IfElse",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Program1_SwitchCase",
+            "request": "launch",
+            "mainClass": "PASD.Program1_SwitchCase",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Program2_IfElse",
+            "request": "launch",
+            "mainClass": "PASD.Program2_IfElse",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Program2_SwitchCase",
+            "request": "launch",
+            "mainClass": "PASD.Program2_SwitchCase",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Program3_IfElse",
+            "request": "launch",
+            "mainClass": "PASD.Program3_IfElse",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "Program3_SwitchCase",
+            "request": "launch",
+            "mainClass": "PASD.Program3_SwitchCase",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal1_4567",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal1dan2.soal1_4567",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal2_1",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal1dan2.soal2_1",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal2_10",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal1dan2.soal2_10",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal2_13",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal1dan2.soal2_13",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal2_14",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal1dan2.soal2_14",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal2_15",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal1dan2.soal2_15",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal2_19",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal1dan2.soal2_19",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal2_2",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal1dan2.soal2_2",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal2_21",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal1dan2.soal2_21",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal2_3",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal1dan2.soal2_3",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal2_4",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal1dan2.soal2_4",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal2_5",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal1dan2.soal2_5",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal2_6",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal1dan2.soal2_6",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal2_7",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal1dan2.soal2_7",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal2_8",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal1dan2.soal2_8",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal2_9",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal1dan2.soal2_9",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal3_1",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal3.soal3_1",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal3_2",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal3.soal3_2",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal3_3",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal3.soal3_3",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal3_4",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal3.soal3_4",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal3_5",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal3.soal3_5",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "soal3_9",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal3.soal3_9",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "bagimodule",
+            "request": "launch",
+            "mainClass": "coba.bagimodule",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "guessbirthday",
+            "request": "launch",
+            "mainClass": "coba.guessbirthday",
+            "projectName": "src_b4978ba5"
+        },
+        {
+            "type": "java",
+            "name": "if1",
+            "request": "launch",
+            "mainClass": "coba.if1",
+            "projectName": "src_b4978ba5"
+        }
+    ]
+}
