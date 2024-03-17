@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "binarySearch",
+            "request": "launch",
+            "mainClass": "formatMethod.binarySearch",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
             "name": "SebaranMultinom",
             "request": "launch",
             "mainClass": "Buat_Soal.SebaranMultinom",
