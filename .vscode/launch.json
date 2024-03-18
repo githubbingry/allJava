@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "preUTS_ASDL",
+            "request": "launch",
+            "mainClass": "coba.preUTS_ASDL",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
             "name": "binarySearch",
             "request": "launch",
             "mainClass": "formatMethod.binarySearch",
