@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "tesGeometri",
+            "request": "launch",
+            "mainClass": "coba.geometri.tesGeometri",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
             "name": "preUTS_ASDL",
             "request": "launch",
             "mainClass": "coba.preUTS_ASDL",
