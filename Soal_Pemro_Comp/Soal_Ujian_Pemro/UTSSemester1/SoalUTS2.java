@@ -1,4 +1,4 @@
-package Soal_Pemro_Comp.Soal_Ujian_Pemro;
+package Soal_Pemro_Comp.Soal_Ujian_Pemro.UTSSemester1;
 
 import java.util.Scanner;
 
