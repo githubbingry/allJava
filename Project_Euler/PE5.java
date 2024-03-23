@@ -33,10 +33,10 @@ public class PE5 {
     }
 
     static int smallestDivisible(int num, int product){
-        while(true){
-            if(evenlyDivisible(num, product)){
-                break;
-            }
+        while(true && !evenlyDivisible(num, product)){
+            // if(evenlyDivisible(num, product)){
+            //     break;
+            // }
             product++;
         }
         return product;

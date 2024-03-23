@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PE5",
+            "request": "launch",
+            "mainClass": "Project_Euler.PE5",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "PE6",
+            "request": "launch",
+            "mainClass": "Project_Euler.PE6",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "PE7",
+            "request": "launch",
+            "mainClass": "Project_Euler.PE7",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
             "name": "Driver",
             "request": "launch",
             "mainClass": "Soal_Pemro_Comp.Soal_Ujian_Pemro.SoalUTS2.Driver",
