@@ -1,4 +1,4 @@
-package Buat_Soal;
+package coba;
 
 import java.util.Scanner;
 

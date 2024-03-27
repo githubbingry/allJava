@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FlowLayoutTest",
+            "request": "launch",
+            "mainClass": "GUI.FlowLayoutTest",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "GridLayoutTest",
+            "request": "launch",
+            "mainClass": "GUI.GridLayoutTest",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "GUI.test",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "operasiAritmatikaString",
+            "request": "launch",
+            "mainClass": "coba.operasiAritmatikaString",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "genap_ganjil",
+            "request": "launch",
+            "mainClass": "Buat_Soal.genap_ganjil",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
             "name": "sumSinOverX",
             "request": "launch",
             "mainClass": "Buat_Soal.sumSinOverX",
