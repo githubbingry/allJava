@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sumSinOverX",
+            "request": "launch",
+            "mainClass": "Buat_Soal.sumSinOverX",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "PE3",
+            "request": "launch",
+            "mainClass": "Project_Euler.PE3",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "PE4",
+            "request": "launch",
+            "mainClass": "Project_Euler.PE4",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
             "name": "PE5",
             "request": "launch",
             "mainClass": "Project_Euler.PE5",

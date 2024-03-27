@@ -34,9 +34,6 @@ public class PE5 {
 
     static int smallestDivisible(int num, int product){
         while(true && !evenlyDivisible(num, product)){
-            // if(evenlyDivisible(num, product)){
-            //     break;
-            // }
             product++;
         }
         return product;
@@ -47,6 +44,4 @@ public class PE5 {
 2520= 210 * 12
     = (2*3*5*7) * (4*3)
     = 7*4*9*10
-
-
  */
