@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RegistrationForm",
+            "request": "launch",
+            "mainClass": "DariKawan.Fazri.RegistrationForm",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "Registration",
+            "request": "launch",
+            "mainClass": "GUI.Registration",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "Payment",
+            "request": "launch",
+            "mainClass": "GUI.Payment",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "LoanCalculatorOnlyUI",
+            "request": "launch",
+            "mainClass": "DariKawan.Fazri.LoanCalculatorOnlyUI",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "GUIPemro",
+            "request": "launch",
+            "mainClass": "GUI.GUIPemro",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
             "name": "FlowLayoutTest",
             "request": "launch",
             "mainClass": "GUI.FlowLayoutTest",
