@@ -14,11 +14,10 @@ public class MinimumEuclideanDistance {
         }
         for (int i = 0; i < n-1; i++){
             for (int j = i; j < n -1; j++){
+                d = (int)Math.pow(ar[i][0] - ar[j+1][0], 2) + (int)Math.pow(ar[i][1] - ar[j+1][1], 2);
                 if (i == 0 && j == 0){
-                    d = (int)Math.pow(ar[i][0] - ar[j+1][0], 2) + (int)Math.pow(ar[i][1] - ar[j+1][1], 2);
                     min = d;
                 } else {
-                    d = (int)Math.pow(ar[i][0] - ar[j+1][0], 2) + (int)Math.pow(ar[i][1] - ar[j+1][1], 2);
                     min = (min < d) ? min : d;
                 }
             }

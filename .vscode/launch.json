@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinimumEuclideanDistance",
+            "request": "launch",
+            "mainClass": "CSES.MinimumEuclideanDistance",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
             "name": "TestWaktu",
             "request": "launch",
             "mainClass": "PASD.ADT.TestWaktu",
