@@ -1,12 +1,30 @@
 package GUI.AlternatingSequenceGUI;
 
+import java.awt.Dimension;
 import java.awt.GridLayout;
+// import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
+
+/*
+f(x) = {
+    a*x, if x is odd
+    b*x, if x is even
+}
+sum from i = 1 to n of f(i)
+for all n ∈ N and a, b ∈ Z
+
+Solution :
+o = floor((n+1)/2)
+e = floor(n/2)
+sum = a*o*(o+1)/2 + b*e*(e+1)/2
+ */
+
 import java.math.BigInteger;
 
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -14,11 +32,12 @@ import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.SwingConstants;
 
-public class AlternatingSequenceBigInteger extends JFrame{
+public class AlternatingSequenceBigIntegerTextArea extends JFrame{
     JPanel pnlAll = new JPanel();
     JPanel[] pnlInput = new JPanel[3];
     JPanel pnlWarning = new JPanel();
     JPanel pnlButton = new JPanel();
+    JPanel pnlHasilText = new JPanel();
     JPanel pnlHasil = new JPanel();
 
     // JLabel lblContohSequence = new JLabel();
@@ -29,20 +48,23 @@ public class AlternatingSequenceBigInteger extends JFrame{
     JLabel[] lblWarning = new JLabel[2];
     JLabel lblHTMLWarning = new JLabel();
     JLabel lblHasilText = new JLabel();
-    JLabel lblHasil = new JLabel();
+    JLabel[] lblHasilArray = new JLabel[1]; //fleksibel menyesuaikan lblhasil
     JLabel lblPenjelasan = new JLabel();
 
     JTextArea taNAngka = new JTextAreaDigitOnly();
     JTextArea taAGanjil = new JTextAreaDigitOnly();
     JTextArea taBGenap = new JTextAreaDigitOnly();
+    JTextArea taHasil = new JTextAreaDigitOnly();
 
     JButton btnHitung = new JButton();
     JButton btnReset = new JButton();
     JButton btnPenjelasan = new JButton();
 
-    public AlternatingSequenceBigInteger(){
+    public AlternatingSequenceBigIntegerTextArea(){
         super("Sum of Alternating Sequence of a and b (Big Integer)");
+        this.setIconImage(new ImageIcon(getClass().getResource("sigma_symbol_3.png")).getImage());
 
+        // pnlAll.add(new JLabel(new ImageIcon("sigma_symbol_3.png"))); //doesnt work
         for(int i = 0; i < pnlInput.length; i++){
             pnlInput[i] = new JPanel();
             pnlInput[i].setLayout(new GridLayout(1, 2, 0, 4));
@@ -50,7 +72,8 @@ public class AlternatingSequenceBigInteger extends JFrame{
         pnlWarning.setLayout(new GridLayout(4, 1));
         pnlButton.setLayout(new GridLayout(1, 2, 4, 0));
         // pnlButton.setLayout(new GridLayout(1, 3, 4, 0)); //gunakan ini jika button penjelasan ditambah
-        pnlHasil.setLayout(new GridLayout(5, 1));
+        pnlHasilText.setLayout(new GridLayout(1, 1));
+        pnlHasil.setLayout(new GridLayout(1, 1));
 
         lblNAngka.setText("Input n (banyak angka pada barisan) :");
         pnlInput[0].add(lblNAngka);
@@ -98,19 +121,21 @@ public class AlternatingSequenceBigInteger extends JFrame{
         pnlButton.add(new JLabel());
         // pnlButton.add(btnPenjelasan);
 
-        lblHasilText.setText("Hasil Penjumlahan Barisan:");
-        lblHasilText.setHorizontalAlignment(0);
-        pnlHasil.add(lblHasilText);
+        lblHasilText.setText("Hasil : ");
+        lblHasilText.setHorizontalAlignment(SwingConstants.CENTER);
+        pnlHasilText.add(lblHasilText);
 
-        lblHasil.setText("");
-        lblHasil.setHorizontalAlignment(0);
-        pnlHasil.add(lblHasil);
+        taHasil.setPreferredSize(new Dimension(400, 200));
+        taHasil.setLineWrap(true);
+        taHasil.setEditable(false);
+        pnlHasil.add(taHasil);
 
         for(int i = 0; i < pnlInput.length; i++){
             pnlAll.add(pnlInput[i]);
         }
         pnlAll.add(pnlWarning);
         pnlAll.add(pnlButton);
+        pnlAll.add(pnlHasilText);
         pnlAll.add(pnlHasil);
 
         this.add(pnlAll);
@@ -134,7 +159,12 @@ public class AlternatingSequenceBigInteger extends JFrame{
             taNAngka.setText("");
             taAGanjil.setText("");
             taBGenap.setText("");
-            lblHasil.setText("");
+            lblHasilText.setText("");
+            taHasil.setText("");
+            for (int i = 0; i < lblHasilArray.length; i++){
+                pnlHasil.remove(lblHasilArray[i]);
+                lblHasilArray[i].setText("");
+            }
         }
     }
 
@@ -181,12 +211,31 @@ public class AlternatingSequenceBigInteger extends JFrame{
     private class HitungButton implements ActionListener{
         @Override
         public void actionPerformed(ActionEvent ae){
-            lblHasil.setText("");
             BigInteger n = new BigInteger(taNAngka.getText());
             BigInteger a = new BigInteger(taAGanjil.getText());
             BigInteger b = new BigInteger(taBGenap.getText());
             HitungSequenceBigInteger hitung= new HitungSequenceBigInteger(n, a, b);
-            lblHasil.setText(lblHasil.getText() + hitung.getSum());
+            BigInteger sum = hitung.getSum();
+            isiHasilArray(sum);
+            taHasil.setText("" + sum);
+        }
+
+        private void isiHasilArray(BigInteger sum){
+            String sumString = sum.toString();
+            int banyakDigit = sumString.length();
+            int banyakBaris = banyakDigit/70 +1;
+            lblHasilArray = new JLabel[banyakBaris];
+            for(int i = 0, awal = 0; i < lblHasilArray.length; i++){
+                lblHasilArray[i] = new JLabel("", SwingConstants.CENTER);
+                if(banyakDigit >= 70) {
+                    lblHasilArray[i].setText(sumString.substring(awal, awal + 70));
+                    awal += 70;
+                    banyakDigit -= 70;
+                } else {
+                    lblHasilArray[i].setText(sumString.substring(awal, awal + banyakDigit));
+                }
+                // pnlHasil.add(lblHasilArray[i]); //uncomment ts
+            }
         }
     }
 
@@ -242,6 +291,7 @@ public class AlternatingSequenceBigInteger extends JFrame{
     }
     
     public static void main(String[] args) {
-        new AlternatingSequenceBigInteger();
+        new AlternatingSequenceBigIntegerTextArea();
     }
 }
+

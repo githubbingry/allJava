@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestWaktu",
+            "request": "launch",
+            "mainClass": "PASD.ADT.TestWaktu",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "TestMahasiswa",
+            "request": "launch",
+            "mainClass": "PASD.ADT.TestMahasiswa",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "AlternatingSequenceLabelWrap",
+            "request": "launch",
+            "mainClass": "GUI.AlternatingSequenceGUI.AlternatingSequenceLabelWrap",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "AlternatingBigIntegerTest",
+            "request": "launch",
+            "mainClass": "GUI.AlternatingSequenceGUI.AlternatingBigIntegerTest",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "AlternatingSequenceBigIntegerTextArea",
+            "request": "launch",
+            "mainClass": "GUI.AlternatingSequenceGUI.AlternatingSequenceBigIntegerTextArea",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
             "name": "AlternatingSequenceBigInteger",
             "request": "launch",
             "mainClass": "GUI.AlternatingSequenceGUI.AlternatingSequenceBigInteger",

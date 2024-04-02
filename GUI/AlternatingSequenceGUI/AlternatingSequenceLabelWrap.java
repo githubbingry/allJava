@@ -14,7 +14,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.SwingConstants;
 
-public class AlternatingSequenceBigInteger extends JFrame{
+public class AlternatingSequenceLabelWrap extends JFrame{
     JPanel pnlAll = new JPanel();
     JPanel[] pnlInput = new JPanel[3];
     JPanel pnlWarning = new JPanel();
@@ -29,7 +29,7 @@ public class AlternatingSequenceBigInteger extends JFrame{
     JLabel[] lblWarning = new JLabel[2];
     JLabel lblHTMLWarning = new JLabel();
     JLabel lblHasilText = new JLabel();
-    JLabel lblHasil = new JLabel();
+    JLabel[] lblHasilArray = new JLabel[1];
     JLabel lblPenjelasan = new JLabel();
 
     JTextArea taNAngka = new JTextAreaDigitOnly();
@@ -40,7 +40,7 @@ public class AlternatingSequenceBigInteger extends JFrame{
     JButton btnReset = new JButton();
     JButton btnPenjelasan = new JButton();
 
-    public AlternatingSequenceBigInteger(){
+    public AlternatingSequenceLabelWrap(){
         super("Sum of Alternating Sequence of a and b (Big Integer)");
 
         for(int i = 0; i < pnlInput.length; i++){
@@ -102,10 +102,6 @@ public class AlternatingSequenceBigInteger extends JFrame{
         lblHasilText.setHorizontalAlignment(0);
         pnlHasil.add(lblHasilText);
 
-        lblHasil.setText("");
-        lblHasil.setHorizontalAlignment(0);
-        pnlHasil.add(lblHasil);
-
         for(int i = 0; i < pnlInput.length; i++){
             pnlAll.add(pnlInput[i]);
         }
@@ -134,7 +130,13 @@ public class AlternatingSequenceBigInteger extends JFrame{
             taNAngka.setText("");
             taAGanjil.setText("");
             taBGenap.setText("");
-            lblHasil.setText("");
+            lblHasilText.setText("Hasil Penjumlahan Barisan:");
+            for (int i = 0; i < lblHasilArray.length; i++){
+                pnlHasil.remove(lblHasilArray[i]);
+                lblHasilArray[i].setText("");
+            }
+            lblHasilText.setVisible(true);
+            btnHitung.setEnabled(true);
         }
     }
 
@@ -181,12 +183,33 @@ public class AlternatingSequenceBigInteger extends JFrame{
     private class HitungButton implements ActionListener{
         @Override
         public void actionPerformed(ActionEvent ae){
-            lblHasil.setText("");
             BigInteger n = new BigInteger(taNAngka.getText());
             BigInteger a = new BigInteger(taAGanjil.getText());
             BigInteger b = new BigInteger(taBGenap.getText());
             HitungSequenceBigInteger hitung= new HitungSequenceBigInteger(n, a, b);
-            lblHasil.setText(lblHasil.getText() + hitung.getSum());
+            BigInteger sum = hitung.getSum();
+            isiHasilArray(sum);
+            lblHasilText.setText("Hasil Penjumlahan Barisan:"+sum);
+            lblHasilText.setVisible(false);
+            btnHitung.setEnabled(false);
+        }
+
+        private void isiHasilArray(BigInteger sum){
+            String sumString = sum.toString();
+            int banyakDigit = sumString.length();
+            int banyakBaris = banyakDigit/70 +1;
+            lblHasilArray = new JLabel[banyakBaris];
+            for(int i = 0, awal = 0; i < lblHasilArray.length; i++){
+                lblHasilArray[i] = new JLabel("", SwingConstants.CENTER);
+                if(banyakDigit >= 70) {
+                    lblHasilArray[i].setText(sumString.substring(awal, awal + 70));
+                    awal += 70;
+                    banyakDigit -= 70;
+                } else {
+                    lblHasilArray[i].setText(sumString.substring(awal, awal + banyakDigit));
+                }
+                pnlHasil.add(lblHasilArray[i]); //uncomment ts
+            }
         }
     }
 
@@ -242,6 +265,6 @@ public class AlternatingSequenceBigInteger extends JFrame{
     }
     
     public static void main(String[] args) {
-        new AlternatingSequenceBigInteger();
+        new AlternatingSequenceLabelWrap();
     }
 }
