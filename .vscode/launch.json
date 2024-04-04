@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "QueenAttackII",
+            "request": "launch",
+            "mainClass": "Hackerrank.QueenAttackII",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Hackerrank.Solution",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "QueensAttackII",
+            "request": "launch",
+            "mainClass": "DariKawan.Andhika.QueensAttackII",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
             "name": "infinity",
             "request": "launch",
             "mainClass": "coba.infinity",
