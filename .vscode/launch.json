@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "infinity",
+            "request": "launch",
+            "mainClass": "coba.infinity",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "TestPointDanGaris",
+            "request": "launch",
+            "mainClass": "PASD.ADT.Garis.TestPointDanGaris",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
             "name": "MinimumEuclideanDistance",
             "request": "launch",
             "mainClass": "CSES.MinimumEuclideanDistance",
