@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Garis1",
+            "request": "launch",
+            "mainClass": "DariKawan.Putri.Garis1",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "cobaList",
+            "request": "launch",
+            "mainClass": "coba.cobaList",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
             "name": "QueenAttackII",
             "request": "launch",
             "mainClass": "Hackerrank.QueenAttackII",
