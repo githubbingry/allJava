@@ -3,6 +3,7 @@ package coba;
 import java.util.ArrayList;
 import java.util.List;
 
+@SuppressWarnings("unused")
 public class cobaList {
     public static void main(String[] args) {
         ArrayList<Integer> arL = new ArrayList<>();

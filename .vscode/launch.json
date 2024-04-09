@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ternaryVoid",
+            "request": "launch",
+            "mainClass": "coba.ternaryVoid",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
             "name": "Garis1",
             "request": "launch",
             "mainClass": "DariKawan.Putri.Garis1",
