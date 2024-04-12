@@ -137,4 +137,21 @@ public class Garis {
     }
     
     //tambah method luas area dibawah garis jika diatas sumbu x, diatas garis jika dibawah sumbu y
+    /*
+    bentuk dan letak garis terpisah menjadi 3
+    1. menghimpit sumbu x atau y1 = y2 = 0.
+    2. diatas sumbu x (mencari area di bawah garis):
+        2a. garis horizontal dimana gradien = 0 atau y1=y2
+        2b. garis miring dimana gradien != 0 :
+            2b1. |y1| > |y2|
+            2b2. |y1| < |y2|
+        2c. garis vertikal dimana gradien = inf atau x1 = x2
+    3. dibawah sumbu x (mencari area di atas garis):
+        3a. garis horizontal dimana gradien = 0 atau y1=y2
+        3b. garis miring dimana gradien != 0 :
+            3b1. |y1| > |y2|
+            3b2. |y1| < |y2|
+        3c. garis vertikal dimana gradien = inf atau x1 = x2
+    4. membelah sumbu x (mencari area segitiga di atas dan di bawah sumbu x).
+     */
 }
