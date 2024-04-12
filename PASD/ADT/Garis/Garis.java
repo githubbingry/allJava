@@ -105,7 +105,7 @@ public class Garis {
         } else {
             m = this.getGradien();
             b = -m*this.awal.getX() + this.awal.getY();
-            s = gradientFormat(m) + bFormat(m, b);
+            s = gradientFormat(m) + bFormat(b);
         }
         return s;
     }
@@ -126,7 +126,7 @@ public class Garis {
         return s;
     }
 
-    private String bFormat(double m, double b){
+    private String bFormat(double b){
         String s = "";
         if (b < 0){
             s = " - "+ -b;
