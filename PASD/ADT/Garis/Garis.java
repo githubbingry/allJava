@@ -127,17 +127,17 @@ public class Garis {
     }
 
     private String bFormat(double b){
-        // String s = "";
-        // if (b < 0){
-        //     s = " - "+ -b;
-        // } else if (b > 0){
-        //     s = " + "+ b;
-        // }
-        // return s;
-        return b < 0
-            ? " - " + -b
-            : " + " + b
-        ;
+        String s = "";
+        if (b < 0){
+            s = " - "+ -b;
+        } else if (b > 0){
+            s = " + "+ b;
+        }
+        return s;
+        // return b < 0
+        //     ? " - " + -b
+        //     : " + " + b
+        // ;
     }
     
     //tambah method luas area dibawah garis jika diatas sumbu x, diatas garis jika dibawah sumbu y
