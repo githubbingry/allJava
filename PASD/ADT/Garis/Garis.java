@@ -105,7 +105,7 @@ public class Garis {
         } else {
             m = this.getGradien();
             b = -m*this.awal.getX() + this.awal.getY();
-            s = gradientFormat(m) + bFormat(b);
+            s = this.gradientFormat(m) + this.bFormat(b);
         }
         return s;
     }
@@ -127,13 +127,17 @@ public class Garis {
     }
 
     private String bFormat(double b){
-        String s = "";
-        if (b < 0){
-            s = " - "+ -b;
-        } else if (b > 0){
-            s = " + "+ b;
-        }
-        return s;
+        // String s = "";
+        // if (b < 0){
+        //     s = " - "+ -b;
+        // } else if (b > 0){
+        //     s = " + "+ b;
+        // }
+        // return s;
+        return b < 0
+            ? " - " + -b
+            : " + " + b
+        ;
     }
     
     //tambah method luas area dibawah garis jika diatas sumbu x, diatas garis jika dibawah sumbu y
