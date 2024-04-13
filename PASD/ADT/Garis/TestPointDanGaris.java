@@ -45,5 +45,12 @@ public class TestPointDanGaris {
         System.out.println(g4.getAngleRadian());
         System.out.println(g4.getAngleDegree());
         System.out.println(g4.getFunction());
+        // g4.getAkhir().setX(0); //this make it broke, hapus setter di adt point
+        // System.out.println(g4);
+        // System.out.println(g4.getPanjangGaris());
+        // System.out.println(g4.getGradien());
+        // System.out.println(g4.getAngleRadian());
+        // System.out.println(g4.getAngleDegree());
+        // System.out.println(g4.getFunction());
     }
 }
