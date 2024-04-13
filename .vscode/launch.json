@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "fibonacciRequiem",
+            "request": "launch",
+            "mainClass": "Buat_Soal.fibonacci.fibonacciRequiem",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "fiveSquare",
+            "request": "launch",
+            "mainClass": "Buat_Soal.fiveSquare",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
             "name": "ternaryVoid",
             "request": "launch",
             "mainClass": "coba.ternaryVoid",

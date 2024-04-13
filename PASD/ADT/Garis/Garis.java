@@ -8,9 +8,13 @@ public class Garis {
         return (p1.getX() != p2.getX()) || (p1.getY() != p2.getY());
     }
 
-    public Garis() {
+    private void isiGarisDefault(){
         this.awal = new Point(0, 0);
         this.akhir = new Point(1, 1);
+    }
+
+    public Garis() {
+        isiGarisDefault();
     }
 
     public Garis(Point awal, Point akhir) {
@@ -21,8 +25,7 @@ public class Garis {
             System.out.println("Pembuatan garis dengan point tidak valid");
             System.out.println("Kedua point memiliki nilai x dan y yang sama");
             System.out.println("Garis yang dibuat menjadi default dengan titik awal (0, 0) dan titik akhir (1, 1)");
-            this.awal = new Point(0, 0);
-            this.akhir = new Point(1, 1);
+            isiGarisDefault();
         }
     }
 
