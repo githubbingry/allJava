@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "tesgaris",
+            "request": "launch",
+            "mainClass": "DariKawan.Hani.tesgaris",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
             "name": "fibonacciRequiem",
             "request": "launch",
             "mainClass": "Buat_Soal.fibonacci.fibonacciRequiem",

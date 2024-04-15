@@ -1,7 +1,7 @@
 package PASD.ADT.Garis;
 
-public class Point {
-    private int x, y;
+final public class Point {
+    final private int x, y;
 
     public Point() {
         this(0, 0);
