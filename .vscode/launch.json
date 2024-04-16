@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestListNode",
+            "request": "launch",
+            "mainClass": "PASD.ADT.ListNode.TestListNode",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
             "name": "tesgaris",
             "request": "launch",
             "mainClass": "DariKawan.Hani.tesgaris",
