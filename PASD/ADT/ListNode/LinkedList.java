@@ -40,8 +40,8 @@ public class LinkedList {
         }
     }
 
-    //TODO : make method insert after dan insert at
-    //O(n), insert after
+    //TODO : make method insert after
+    //O(n), insert after?
     public void insertAfter(int value, ListNode prevNode){
         ListNode node = new ListNode(value);
         node.setNext(prevNode);
@@ -49,12 +49,42 @@ public class LinkedList {
     }
 
     //O(n), insert at index
-    public void insertAt(int index, ListNode node){
-        ListNode current = traverseWithIndex(index);
-        node.setNext(current);
-        current = node;
+    public void insertAt(int index, int value){
+        ListNode node = new ListNode(value);
+        int size = this.getSize();
+        if (index == 0 || (index + size) < 0){ //untuk index awal atau nilai absolut dari index negatif yng lebih besar dari 0, (|index| > 0, index < 0)
+            this.insertFirst(node);
+        } else if (index >= size){ // out of bound/size dari linked list, append saja
+            this.append(node);
+        } else {
+            if(index < 0) { //jika index negatif, maka mengakses linked list dari belakang
+                index += size;
+            }
+            ListNode current = traverseWithIndex(index);
+            ListNode prevNode = traverseWithIndex(index-1);
+            node.setNext(current);
+            prevNode.setNext(node);
+        }
     }
 
+    public void insertAt(int index, ListNode node){
+        int size = this.getSize();
+        if (index == 0 || (index + size) < 0){ //untuk index awal atau nilai absolut dari index negatif yng lebih besar dari 0, (|index| > 0, index < 0)
+            this.insertFirst(node);
+        } else if (index >= size){ // out of bound/size dari linked list, append saja
+            this.append(node);
+        } else {
+            if(index < 0) { //jika index negatif, maka mengakses linked list dari belakang
+                index += size;
+            }
+            ListNode current = traverseWithIndex(index);
+            ListNode prevNode = traverseWithIndex(index-1);
+            node.setNext(current);
+            prevNode.setNext(node);
+        }
+    }
+
+    //O(n), traverse
     private ListNode traverse(){
         ListNode current = this.head;
         while (current.getNext() != null) {
@@ -65,13 +95,25 @@ public class LinkedList {
 
     private ListNode traverseWithIndex(int index){
         ListNode current = this.head;
-        while (current.getNext() != null && index > 1) {
+        while (current.getNext() != null && index > 0) {
             current = current.getNext();
             index--;
         }
         return current;
     }
 
+    //getSize (1, 2, 3, ...)
+    public int getSize(){
+        ListNode current = this.head;
+        int size = 1;
+        while(current.getNext() != null){
+            size++;
+            current = current.getNext();
+        }
+        return size;
+    }
+
+    //display/toString
     @Override
     public String toString(){
         int i = 0;
