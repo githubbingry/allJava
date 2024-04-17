@@ -113,6 +113,8 @@ public class LinkedList {
         return size;
     }
 
+    //TODO : buat method getAt, setAt, delete(deleteAt, deleteFirst, deleteLast).
+
     //display/toString
     @Override
     public String toString(){
