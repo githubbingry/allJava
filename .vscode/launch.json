@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "base64",
+            "request": "launch",
+            "mainClass": "coba.base64",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
             "name": "TestListNode",
             "request": "launch",
             "mainClass": "PASD.ADT.ListNode.TestListNode",
