@@ -1,14 +1,11 @@
 package Hackerrank;
 
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
 
-@SuppressWarnings("unused")
 class Result {
 
     /*
@@ -35,6 +32,9 @@ class Result {
         int rd = Math.min(r, d);
         int t = r+l+u+d+ru+lu+ld+rd;
         if (k == 0) return t;
+        //cari obstacle yang paling mendekati queen, total dari 8 arah
+        //buat menjadi set yang tak berulang(unique)
+        //hitung
         return 0;
     }
 

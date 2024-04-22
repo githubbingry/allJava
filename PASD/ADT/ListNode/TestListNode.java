@@ -43,7 +43,9 @@ public class TestListNode {
 
         li.setLast(new ListNode(44));
         li.deleteAt(4);
+        li.insertAt(9, 0);
 
         System.out.println(li.toString());
+        System.out.println(li.getLast());
     }
 }
