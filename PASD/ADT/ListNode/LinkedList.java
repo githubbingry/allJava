@@ -113,6 +113,8 @@ public class LinkedList {
         return size;
     }
 
+    //TODO: exception handling in getAt, setAt, deleteAt index method
+
     //O(1), getFirst
     public ListNode getFirst(){
         return this.head;
