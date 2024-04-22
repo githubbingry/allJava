@@ -26,7 +26,7 @@ public class LinkedList {
         if (this.head == null){
             this.head = node;
         } else {
-            ListNode current = traverse();
+            ListNode current = this.traverse();
             current.setNext(node);
         }
     }
@@ -35,7 +35,7 @@ public class LinkedList {
         if (this.head == null){
             this.head = node;
         } else {
-            ListNode current = traverse();
+            ListNode current = this.traverse();
             current.setNext(node);
         }
     }
@@ -67,7 +67,7 @@ public class LinkedList {
             if(index < 0) { //jika index negatif, maka mengakses linked list dari belakang
                 index += size;
             }
-            ListNode prevNode = traverseWithIndex(index-1);
+            ListNode prevNode = this.traverseWithIndex(index-1);
             node.setNext(prevNode.getNext());
             prevNode.setNext(node);
         }
@@ -83,7 +83,7 @@ public class LinkedList {
             if(index < 0) { //jika index negatif dan |index| < size, maka mengakses linked list dari belakang
                 index += size;
             }
-            ListNode prevNode = traverseWithIndex(index-1);
+            ListNode prevNode = this.traverseWithIndex(index-1);
             node.setNext(prevNode.getNext());
             prevNode.setNext(node);
         }
@@ -91,7 +91,7 @@ public class LinkedList {
 
     //O(n), traverse (find and visit)
     private ListNode traverse(){
-        return traverseWithIndex(this.getSize());
+        return this.traverseWithIndex(this.getSize());
     }
 
     private ListNode traverseWithIndex(int index){
@@ -123,12 +123,12 @@ public class LinkedList {
 
     //O(n), getAt index
     public ListNode getAt(int index){
-        return traverseWithIndex(index);
+        return this.traverseWithIndex(index);
     }
 
     //O(n), getLast
     public ListNode getLast(){
-        return traverse();
+        return this.traverse();
     }
 
     // O(1), setFirst
@@ -142,23 +142,23 @@ public class LinkedList {
 
     //O(n), setAt index
     public void setAt(int index, int value){
-        ListNode current = traverseWithIndex(index);
+        ListNode current = this.traverseWithIndex(index);
         current.setValue(value);
     }
 
     public void setAt(int index, ListNode node){
-        ListNode current = traverseWithIndex(index);
+        ListNode current = this.traverseWithIndex(index);
         current.setValue(node.getValue());
     }
 
     //O(n), setLast
     public void setLast(int value){
-        ListNode current = traverse();
+        ListNode current = this.traverse();
         current.setValue(value);
     }
 
     public void setLast(ListNode node){
-        ListNode current = traverse();
+        ListNode current = this.traverse();
         current.setValue(node.getValue());
     }
 
@@ -176,18 +176,18 @@ public class LinkedList {
 
     //O(1), deleteFirst
     public void deleteFirst(){
-        this.head = head.getNext();
+        this.head = this.head.getNext();
     }
     
     //O(n), deleteLast
     public void deleteLast(){
-        ListNode last = traverseWithIndex(this.getSize()-2);
+        ListNode last = this.traverse();
         last.setNext(null);
     }
 
     //O(n), deleteAt index
     public void deleteAt(int index){
-        ListNode prevNode = traverseWithIndex(index-1);
+        ListNode prevNode = this.traverseWithIndex(index-1);
         prevNode.setNext(prevNode.getNext().getNext());
     }
 
