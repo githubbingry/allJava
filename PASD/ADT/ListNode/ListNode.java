@@ -30,6 +30,10 @@ public class ListNode {
         this.next = next;
     }
 
+    public void setNext(int value) {
+        this.next = new ListNode(value);
+    }
+
     @Override
     public String toString() {
         return "[value=" + value + "]";
