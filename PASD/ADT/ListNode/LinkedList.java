@@ -113,7 +113,7 @@ public class LinkedList {
         return size;
     }
 
-    //TODO : buat method delete(deleteAt, deleteFirst, deleteLast).
+    //TODO : buat method deleteAt, getFirst ,getLast, setFirst, setLast.
     //O(n), getAt index
     public ListNode getAt(int index){
         return traverseWithIndex(index);
