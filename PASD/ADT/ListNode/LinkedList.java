@@ -181,7 +181,7 @@ public class LinkedList {
     
     //O(n), deleteLast
     public void deleteLast(){
-        ListNode last = this.traverse();
+        ListNode last = this.traverseWithIndex(this.getSize()-2);
         last.setNext(null);
     }
 
@@ -194,13 +194,13 @@ public class LinkedList {
     //display/toString
     @Override
     public String toString(){
-        int i = 0;
-        String text = ""+ i + this.head + " " ;
+        int idx = 0;
+        String text = "";
         ListNode current = this.head;
-        while(current.getNext() != null){
-            i++;
+        while(current != null){
+            text += ""+ idx + current.toString() + " ";
             current = current.getNext();
-            text += ""+ i + current + " ";
+            idx++;
         }
         return text;
     }

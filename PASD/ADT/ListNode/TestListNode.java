@@ -47,5 +47,6 @@ public class TestListNode {
 
         System.out.println(li.toString());
         System.out.println(li.getLast());
+        System.out.println(li.getSize());
     }
 }
