@@ -20,7 +20,7 @@ public class LinkedList {
         this.head = node;
     }
     
-    //O(n), inster last/append
+    //O(n), insert last/append
     public void append(int value){
         ListNode node = new ListNode(value);
         if (this.head == null){
@@ -84,7 +84,7 @@ public class LinkedList {
         }
     }
 
-    //O(n), traverse
+    //O(n), traverse (find and visit)
     private ListNode traverse(){
         ListNode current = this.head;
         while (current.getNext() != null) {
@@ -113,7 +113,36 @@ public class LinkedList {
         return size;
     }
 
-    //TODO : buat method getAt, setAt, delete(deleteAt, deleteFirst, deleteLast).
+    //TODO : buat method delete(deleteAt, deleteFirst, deleteLast).
+    //O(n), getAt index
+    public ListNode getAt(int index){
+        return traverseWithIndex(index);
+    }
+
+    //O(n), setAt index
+    public void setAt(int index, int value){
+        ListNode node = new ListNode(value);
+        ListNode current = traverseWithIndex(index);
+        node.setNext(current);
+        current = node;
+    }
+
+    public void setAt(int index, ListNode node){
+        ListNode current = traverseWithIndex(index);
+        node.setNext(current);
+        current = node;
+    }
+
+    //O(1), deleteFirst
+    public void deleteFirst(){
+        this.head = head.getNext();
+    }
+    
+    //O(n), deleteLast
+    public void deleteLast(){
+        ListNode last = traverseWithIndex(this.getSize()-2);
+        last.setNext(null);
+    }
 
     //display/toString
     @Override

@@ -32,15 +32,14 @@ public class TestListNode {
         li.insertAt(9, 9);
         li.insertAt(3, 123);
 
+        System.out.println(li.toString());
 
-        ListNode current = li.head;
-        while (current != null) {
-            System.out.println(current.getValue());
-            current = current.getNext();
-        }
+        li.deleteFirst();
+        li.deleteLast();
 
         System.out.println(li.toString());
         System.out.println(li.getSize());
+        System.out.println(li.getAt(5).toString());
 
     }
 }
