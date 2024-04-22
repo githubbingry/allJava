@@ -36,10 +36,14 @@ public class TestListNode {
 
         li.deleteFirst();
         li.deleteLast();
+        li.setAt(6, 42069);
+        li.setAt(7, new ListNode(99));
 
         System.out.println(li.toString());
-        System.out.println(li.getSize());
-        System.out.println(li.getAt(5).toString());
 
+        li.setLast(new ListNode(44));
+        li.deleteAt(4);
+
+        System.out.println(li.toString());
     }
 }

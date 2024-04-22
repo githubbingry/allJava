@@ -113,25 +113,63 @@ public class LinkedList {
         return size;
     }
 
-    //TODO : buat method deleteAt, getFirst ,getLast, setFirst, setLast.
+    //O(1), getFirst
+    public ListNode getFirst(){
+        return this.head;
+    }
+
     //O(n), getAt index
     public ListNode getAt(int index){
         return traverseWithIndex(index);
     }
 
+    //O(n), getLast
+    public ListNode getLast(){
+        return traverseWithIndex(this.getSize()-1);
+    }
+
+    // O(1), setFirst
+    public void setFirst(int value){
+        this.head.setValue(value);
+    }
+
+    public void setFirst(ListNode node){
+        this.head.setValue(node.getValue());
+    }
+
     //O(n), setAt index
     public void setAt(int index, int value){
-        ListNode node = new ListNode(value);
         ListNode current = traverseWithIndex(index);
-        node.setNext(current);
-        current = node;
+        current.setValue(value);
     }
 
     public void setAt(int index, ListNode node){
         ListNode current = traverseWithIndex(index);
-        node.setNext(current);
-        current = node;
+        current.setValue(node.getValue());
     }
+
+    //O(n), setLast
+    public void setLast(int value){
+        ListNode current = traverseWithIndex(this.getSize()-1);
+        current.setValue(value);
+    }
+
+    public void setLast(ListNode node){
+        ListNode current = traverseWithIndex(this.getSize()-1);
+        current.setValue(node.getValue());
+    }
+
+    //gini jg bs
+    /*
+    public void setLast(int value){
+        this.setAt(this.getSize-1, value)
+    }
+
+    public void setLast(ListNode node){
+        this.setAt(this.getSize-1, node)
+    }
+     */
+
 
     //O(1), deleteFirst
     public void deleteFirst(){
@@ -142,6 +180,13 @@ public class LinkedList {
     public void deleteLast(){
         ListNode last = traverseWithIndex(this.getSize()-2);
         last.setNext(null);
+    }
+
+    //O(n), deleteAt index
+    public void deleteAt(int index){
+        ListNode current = traverseWithIndex(index);
+        ListNode prevNode = traverseWithIndex(index-1);
+        prevNode.setNext(current.getNext());
     }
 
     //display/toString
