@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "a",
+            "request": "launch",
+            "mainClass": "coba.a",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
             "name": "base64",
             "request": "launch",
             "mainClass": "coba.base64",
