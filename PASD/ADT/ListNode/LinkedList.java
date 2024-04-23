@@ -114,7 +114,7 @@ public class LinkedList {
         return size;
     }
 
-    //TODO: exception handling in getAt, setAt, deleteAt index method when index < 0 or index >= size
+    //TODO: exception handling in getAt, setAt, deleteAt index method when index < 0 or index >= size. make method getAfter, setAfter 
 
     //O(1), getFirst
     public ListNode getFirst(){
@@ -178,6 +178,13 @@ public class LinkedList {
     public void deleteFirst(){
         this.head = this.head.getNext();
     }
+
+    public ListNode getDeleteFirst(){
+        ListNode current = this.head;
+        this.head = current.getNext();
+        current.setNext(null);
+        return current;
+    }
     
     //O(n), deleteLast
     public void deleteLast(){
@@ -185,10 +192,37 @@ public class LinkedList {
         last.setNext(null);
     }
 
+    public ListNode getDeleteLast(){
+        ListNode last = this.traverseWithIndex(this.getSize()-2);
+        ListNode current = last.getNext();
+        last.setNext(null);
+        return current;
+    }
+
     //O(n), deleteAt index
     public void deleteAt(int index){
         ListNode prevNode = this.traverseWithIndex(index-1);
         prevNode.setNext(prevNode.getNext().getNext());
+    }
+
+    public ListNode getDeleteAt(int index){
+        ListNode prevNode = this.traverseWithIndex(index-1);
+        ListNode current = prevNode.getNext();
+        prevNode.setNext(prevNode.getNext().getNext());
+        current.setNext(null);
+        return current;
+    }
+
+    //O(1), delete After
+    public void deleteAfter(ListNode prevNode){
+        prevNode.setNext(prevNode.getNext().getNext());
+    }
+
+    public ListNode getDeleteAfter(ListNode prevNode){
+        ListNode current = prevNode.getNext();
+        prevNode.setNext(current.getNext());
+        current.setNext(null);
+        return current;
     }
 
     //display/toString
@@ -198,7 +232,7 @@ public class LinkedList {
         String text = "";
         ListNode current = this.head;
         while(current != null){
-            text += ""+ idx + current.toString() + " ";
+            text += idx + current.toString() + " ";
             current = current.getNext();
             idx++;
         }
