@@ -4,6 +4,8 @@ import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
@@ -35,8 +37,11 @@ public class Payment extends JPanel{
 
         for(int i = 0; i < tf.length; i++){
             // tf[i] = new JTextField("123", 10);
-            tf[i] = new JTextField(10);
+            tf[i] = new JTextFieldDigitOnly();
         }
+
+        tf[3].setEditable(false);
+        tf[4].setEditable(false);
 
         btnCompute.addActionListener(new ComputeButton());
         btnReset.addActionListener(new ResetButton());
@@ -122,7 +127,8 @@ public class Payment extends JPanel{
         
         public double getMonthlyPayment(){
             double monthlyInterestRate = annualInterestRate / 1200;
-            double monthlyPayment = loanAmount * monthlyInterestRate / (1-(1 / Math.pow(1+monthlyInterestRate, numberOfYears * 12)));
+            // double monthlyPayment = loanAmount * monthlyInterestRate / (1-(1 / Math.pow(1+monthlyInterestRate, numberOfYears * 12)));
+            double monthlyPayment = loanAmount * monthlyInterestRate * 3;
             return monthlyPayment;
         }
         
@@ -142,6 +148,46 @@ public class Payment extends JPanel{
             for(int i = 0; i < tf.length; i++){
                 tf[i].setText("");
             }
+        }
+    }
+
+    private class JTextFieldDigitOnly extends JTextField {
+        public JTextFieldDigitOnly(){
+            addKeyListener(
+                new KeyAdapter() {
+                    public void keyTyped(KeyEvent e) {
+                        char ch = e.getKeyChar();
+                        if (!isNumber(ch) && !isValidSignal(ch) && !validatePoint(ch)  && ch != '\b') {
+                            e.consume();
+                        }
+                    }
+                }
+            );
+        }
+    
+        private boolean isNumber(char ch){
+            return ch >= '0' && ch <= '9';
+        }
+    
+        private boolean isValidSignal(char ch){
+            if( (getText() == null || "".equals(getText().trim()) ) && ch == '-'){
+                return true;
+            }
+            return false;
+        }
+    
+        private boolean validatePoint(char ch){
+            if(ch != '.'){
+                return false;
+            }
+    
+            if(getText() == null || "".equals(getText().trim())){
+                setText("0.");
+                return false;
+            }else if("-".equals(getText())){
+                setText("-0.");
+            }
+            return true;
         }
     }
 
