@@ -2,6 +2,7 @@ package GUI;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.*;
 
 public class Registration extends JFrame{
     JPanel[] panel = new JPanel[3];
@@ -38,6 +39,7 @@ public class Registration extends JFrame{
         btn[0] = new JButton("Daftar");
         btn[1] = new JButton("Ambil Data");
         btn[2] = new JButton("Hapus");
+        btn[2].addActionListener(new HapusButton());
 
         //textfield 1-7 label
         for(int i = 0; i < lbl.length; i++){
@@ -54,10 +56,19 @@ public class Registration extends JFrame{
         panel[0].add(panel[2], BorderLayout.PAGE_END);
 
         this.add(panel[0]);
-        this.setSize(400, 300);
+        this.setSize(600, 500);
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
+    }
+
+    private class HapusButton implements ActionListener{
+        @Override
+        public void actionPerformed(ActionEvent ae){
+            for(int i = 0; i < tf.length; i++){
+                tf[i].setText("");
+            }
+        }
     }
     
     public static void main(String[] args) {
