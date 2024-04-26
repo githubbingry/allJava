@@ -1,8 +1,18 @@
 package GUI;
 
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.GridLayout;
+import java.awt.Image;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
 
 public class Registration extends JFrame{
     JPanel[] panel = new JPanel[3];
@@ -37,9 +47,10 @@ public class Registration extends JFrame{
         }
         
         btn[0] = new JButton("Daftar");
+        btn[0].addActionListener(new DaftarAction());
         btn[1] = new JButton("Ambil Data");
         btn[2] = new JButton("Hapus");
-        btn[2].addActionListener(new HapusButton());
+        btn[2].addActionListener(new HapusAction());
 
         //textfield 1-7 label
         for(int i = 0; i < lbl.length; i++){
@@ -62,7 +73,53 @@ public class Registration extends JFrame{
         this.setVisible(true);
     }
 
-    private class HapusButton implements ActionListener{
+    private class DaftarAction implements ActionListener{
+        JFrame fNotif = new JFrame("Notifikasi");
+        JPanel pnlNotif = new JPanel(new GridLayout(2, 1, 0, 5));
+        JButton btnOK = new JButton("OK");
+        JLabel lblImgBenar = new JLabel(
+            new ImageIcon(
+                new ImageIcon("GUI/benar.jpg")
+                .getImage()
+                .getScaledInstance(50, 50, Image.SCALE_SMOOTH)
+            )
+        );
+        JLabel lblImgSalah = new JLabel(
+            new ImageIcon(
+                new ImageIcon("GUI/salah.jpg")
+                .getImage()
+                .getScaledInstance(50, 50, Image.SCALE_SMOOTH)
+            )
+        );
+/*
+        ImageIcon logoIcon = new ImageIcon("D:\\Projects\\Java\\Random\\pemrog_lanjut_rebuild\\src\\Project\\logo.png");
+        Image image = logoIcon.getImage();
+        Image newimg = image.getScaledInstance(125, 125, Image.SCALE_SMOOTH);
+        logoIcon = new ImageIcon(newimg);
+        JLabel logoLabel = new JLabel();
+        logoLabel.setIcon(logoIcon);
+ */
+        @Override
+        public void actionPerformed(ActionEvent ae){
+            btnOK.addActionListener(new CloseNotification());
+            pnlNotif.add(new JLabel(new ImageIcon("GUI/benar.jpg")));
+            pnlNotif.add(btnOK);
+            fNotif.add(pnlNotif);
+            fNotif.setSize(250, 150);
+            fNotif.setLocationRelativeTo(null);
+            fNotif.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+            fNotif.setVisible(true);
+        }
+
+        public class CloseNotification implements ActionListener {
+            @Override
+            public void actionPerformed(ActionEvent ae){
+                fNotif.dispose();
+            }
+        }
+    }
+
+    private class HapusAction implements ActionListener{
         @Override
         public void actionPerformed(ActionEvent ae){
             for(int i = 0; i < tf.length; i++){

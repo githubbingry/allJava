@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestingGUIBar",
+            "request": "launch",
+            "mainClass": "GUI.TestingGUIBar",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
             "name": "HandleEvent",
             "request": "launch",
             "mainClass": "DariKawan.Fazri.HandleEvent",
