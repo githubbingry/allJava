@@ -2,7 +2,7 @@ package PASD.ADT.ListNode;
 
 public class TestListNode {
     public static void main(String[] args) {
-        LinkedList li = new LinkedList();
+        MyLinkedList li = new MyLinkedList();
         ListNode node1 = new ListNode(1);
         ListNode node2 = new ListNode(2);
         ListNode node3 = new ListNode(3);
@@ -57,6 +57,6 @@ public class TestListNode {
     }
 
     static boolean testingInstanceOf(Object o){
-        return o instanceof LinkedList;
+        return o instanceof MyLinkedList;
     }
 }

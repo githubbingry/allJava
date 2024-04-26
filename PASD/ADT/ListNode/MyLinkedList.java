@@ -1,10 +1,10 @@
 package PASD.ADT.ListNode;
 
-public class LinkedList {
+public class MyLinkedList {
     public ListNode head;
     // private int size; // optional
 
-    public LinkedList() {
+    public MyLinkedList() {
         this.head = null;
     }
 
@@ -40,7 +40,6 @@ public class LinkedList {
         }
     }
 
-    //TODO : make method insert after
     //O(n), insert after?
     public void insertAfter(int value, ListNode prevNode){
         ListNode node = new ListNode(value);
@@ -114,6 +113,16 @@ public class LinkedList {
         return size;
     }
 
+    public int getSizeAfter(ListNode node){
+        ListNode current = node;
+        int size = 0;
+        while(current != null){
+            size++;
+            current = current.getNext();
+        }
+        return size;
+    }
+
     //TODO: exception handling in getAt, setAt, deleteAt index method when index < 0 or index >= size. make method getAfter, setAfter 
 
     //O(1), getFirst
@@ -124,6 +133,7 @@ public class LinkedList {
     //O(n), getAt index
     public ListNode getAt(int index){
         return this.traverseWithIndex(index);
+    
     }
 
     //O(n), getLast
