@@ -2,6 +2,7 @@ package GUI;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
+import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import java.awt.Image;
 import java.awt.event.ActionEvent;
@@ -48,7 +49,7 @@ public class Registration extends JFrame{
         
         btn[0] = new JButton("Daftar");
         btn[0].addActionListener(new DaftarAction());
-        btn[1] = new JButton("Ambil Data");
+        btn[1] = new JButton("Ambil Data"); //not yet implemented, use file chooser later
         btn[2] = new JButton("Hapus");
         btn[2].addActionListener(new HapusAction());
 
@@ -73,10 +74,22 @@ public class Registration extends JFrame{
         this.setVisible(true);
     }
 
+    private boolean isAllFilled(){
+        for(int i = 0; i < 4; i++){
+            if (tf[i].getText().equals("")){
+                return false;
+            }
+        }
+        return true;
+    }
+
     private class DaftarAction implements ActionListener{
         JFrame fNotif = new JFrame("Notifikasi");
-        JPanel pnlNotif = new JPanel(new GridLayout(2, 1, 0, 5));
+        // JPanel pnlNotif = new JPanel(new GridLayout(2, 1, 0, 5));
+        JPanel pnlNotif = new JPanel(new FlowLayout());
+        JLabel lblNotif = new JLabel();
         JButton btnOK = new JButton("OK");
+        JLabel lblImage = new JLabel();
         JLabel lblImgBenar = new JLabel(
             new ImageIcon(
                 new ImageIcon("GUI/benar.jpg")
@@ -91,21 +104,27 @@ public class Registration extends JFrame{
                 .getScaledInstance(50, 50, Image.SCALE_SMOOTH)
             )
         );
-/*
-        ImageIcon logoIcon = new ImageIcon("D:\\Projects\\Java\\Random\\pemrog_lanjut_rebuild\\src\\Project\\logo.png");
-        Image image = logoIcon.getImage();
-        Image newimg = image.getScaledInstance(125, 125, Image.SCALE_SMOOTH);
-        logoIcon = new ImageIcon(newimg);
-        JLabel logoLabel = new JLabel();
-        logoLabel.setIcon(logoIcon);
- */
+
         @Override
         public void actionPerformed(ActionEvent ae){
+            fNotif.setIconImage(new ImageIcon(getClass().getResource("notifikasi.jpg")).getImage());
             btnOK.addActionListener(new CloseNotification());
-            pnlNotif.add(new JLabel(new ImageIcon("GUI/benar.jpg")));
+            if (isAllFilled()){
+                // could've use JOptionPane message dialog, but nahh
+                // JOptionPane.showMessageDialog(null, "Data berhasil disimpan", "Notifikasi", JOptionPane.INFORMATION_MESSAGE);
+                lblImage.setIcon(lblImgBenar.getIcon());
+                lblNotif.setText("Data berhasil disimpan");
+            } else {
+                // JOptionPane.showMessageDialog(null, "Data gagal disimpan", "Notifikasi", JOptionPane.ERROR_MESSAGE);
+                lblImage.setIcon(lblImgSalah.getIcon());
+                lblNotif.setText("Data gagal disimpan");
+            }
+            pnlNotif.add(lblImage);
+            pnlNotif.add(lblNotif);
             pnlNotif.add(btnOK);
+
             fNotif.add(pnlNotif);
-            fNotif.setSize(250, 150);
+            fNotif.setSize(240, 150);
             fNotif.setLocationRelativeTo(null);
             fNotif.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
             fNotif.setVisible(true);
