@@ -8,6 +8,8 @@ public class MyLinkedList {
         this.head = null;
     }
 
+    //todo insert for a linkedlist object, array
+
     //O(1), insert first
     public void insertFirst(int value){
         ListNode node = new ListNode(value);
@@ -123,7 +125,7 @@ public class MyLinkedList {
         return size;
     }
 
-    //TODO: exception handling in getAt, setAt, deleteAt index method when index < 0 or index >= size. make method getAfter, setAfter 
+    //todo exception handling in getAt, setAt, deleteAt index method when index < 0 or index >= size. make method getAfter, setAfter
 
     //O(1), getFirst
     public ListNode getFirst(){
@@ -234,6 +236,8 @@ public class MyLinkedList {
         current.setNext(null);
         return current;
     }
+
+    //delete all after index/node
 
     //display/toString
     @Override
