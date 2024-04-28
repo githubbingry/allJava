@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RegistrationFormWithDatabase",
+            "request": "launch",
+            "mainClass": "DariKawan.Fazri.RegistrationFormWithDatabase",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "collatzConjecture",
+            "request": "launch",
+            "mainClass": "coba.collatzConjecture",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
             "name": "TestingGUIBar",
             "request": "launch",
             "mainClass": "GUI.TestingGUIBar",

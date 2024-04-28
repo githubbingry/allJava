@@ -1,0 +1,6 @@
+Waktu: 2024-04-28T22:21:17.4406209 (WIB, Data Diambil dari TextField Langsung)
+Nama: udin 
+Email: tessubjek1@gmail.com
+Negara: udin
+Provinsi: asd
+Nomor Telepon: +6281234567890

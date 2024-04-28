@@ -1,0 +1,6 @@
+Waktu: 2024-04-28T22:02:19.8412751 (WIB, Data Diambil dari TextField Langsung)
+Nama: tes subjek 1
+Email: tessubjek1@gmail.com
+Negara: Palau
+Provinsi: udin
+Nomor Telepon: +6286969696969

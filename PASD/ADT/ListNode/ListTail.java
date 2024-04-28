@@ -11,5 +11,7 @@ public class ListTail {
         this.size = 0;
     }
 
+    
+
     public int getSize(){ return this.size; }
 }
