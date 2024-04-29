@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PolaRahasia",
+            "request": "launch",
+            "mainClass": "Code_League.CL_1_2024.PolaRahasia",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "HBDBro",
+            "request": "launch",
+            "mainClass": "Code_League.CL_1_2024.HBDBro",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "BolakBalik",
+            "request": "launch",
+            "mainClass": "Code_League.CL_1_2024.BolakBalik",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "MerkTerbanyak",
+            "request": "launch",
+            "mainClass": "Code_League.CL_1_2024.MerkTerbanyak",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "KodeUnik",
+            "request": "launch",
+            "mainClass": "Code_League.CL_1_2024.KodeUnik",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
             "name": "RegistrationFormWithDatabase",
             "request": "launch",
             "mainClass": "DariKawan.Fazri.RegistrationFormWithDatabase",
