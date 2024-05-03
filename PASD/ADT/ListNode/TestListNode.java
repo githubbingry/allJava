@@ -49,11 +49,12 @@ public class TestListNode {
         System.out.println(li.getLast());
         System.out.println(li.getSize());
 
-        if(!testingInstanceOf(li)){
-            System.out.println("benar");
-        } else {
-            System.out.println("udin");
-        }
+        // if(!testingInstanceOf(li)){
+        //     System.out.println("benar");
+        // } else {
+        //     System.out.println("udin");
+        // }
+        
     }
 
     static boolean testingInstanceOf(Object o){

@@ -18,7 +18,7 @@ public class MerkTerbanyak {
         int maks = -1;
         int index = -1;
         for(int i = 0; i < 4; i++){
-            if(i > maks){
+            if(merk[i] > maks){
                 maks = merk[i];
                 index = i;
             }

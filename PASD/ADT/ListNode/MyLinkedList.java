@@ -1,11 +1,25 @@
 package PASD.ADT.ListNode;
 
+/*
+head linked list sebagai list node dan kepala
+mengakses anggota list node lain melalui head
+linked list ad bbrpo method :
+1. insert (first, last/append, after)
+2. delete (first, last, after)
+3. toString
+*/
+
 public class MyLinkedList {
     public ListNode head;
     // private int size; // optional
 
+    //constructor w/no argument
     public MyLinkedList() {
         this.head = null;
+    }
+
+    public MyLinkedList(int value) {
+        this.head = new ListNode(value);
     }
 
     //todo insert for a linkedlist object, array

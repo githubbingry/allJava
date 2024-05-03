@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TantanganRajaLayo",
+            "request": "launch",
+            "mainClass": "IFFEST.TantanganRajaLayo",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "KoinHaikal",
+            "request": "launch",
+            "mainClass": "Compe_Prog.KoinHaikal",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "JelajahWaktuDoraemon",
+            "request": "launch",
+            "mainClass": "IFFEST.JelajahWaktuDoraemon",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "KebangkrutanBank",
+            "request": "launch",
+            "mainClass": "IFFEST.KebangkrutanBank",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "DoraemonDanPengukurCuaca",
+            "request": "launch",
+            "mainClass": "IFFEST.DoraemonDanPengukurCuaca",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "TestListTail",
+            "request": "launch",
+            "mainClass": "PASD.ADT.ListNode.TestListTail",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
             "name": "PolaRahasia",
             "request": "launch",
             "mainClass": "Code_League.CL_1_2024.PolaRahasia",
