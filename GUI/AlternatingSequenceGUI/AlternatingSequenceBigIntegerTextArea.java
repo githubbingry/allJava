@@ -187,7 +187,7 @@ public class AlternatingSequenceBigIntegerTextArea extends JFrame{
         }
     
         private boolean isValidSignal(char ch){
-            if( (getText() == null || "".equals(getText().trim()) ) && ch == '-'){
+            if( (getText() == null || "".equals(getText().trim()) ) && ch == '-'){ //karena ini tidak bisa input negatif, tambah toggle tambahan nanti untuk menandakan suatu inputan negatif atau positif
                 return true;
             }
             return false;

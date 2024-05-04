@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 #include <vector>
 
 using namespace std;
@@ -19,7 +19,7 @@ int main() {
 }
 
 vector<int> findPrimes(int N) {
-    vector<bool> isPrime(static_cast<int64_t>(N) + 1, true);
+    vector<bool> isPrime(static_cast<int>(N) + 1, true);
     vector<int> primes;
 
     for (int p = 2; ; p++) {
@@ -43,7 +43,7 @@ vector<int> findPrimes(int N) {
 }
 
 //vers2
-
+/*
 #include <iostream>
 #include <vector>
 
@@ -94,21 +94,22 @@ vector<int> findPrimes(int N) {
     }
 
     return primes;
-}*/
-
-#include <iostream>
-/*using namespace std;*/
-#include <string>
-
-int main() {
-int x, y;
-char a[100];
-std:: string z;
-std:: cin >> x;
-std:: cin >> y;
-getline(std::cin,z);
-scanf("%s",a);
-fgets(a,100,stdin);
-std :: cout<< x << y << z << a;
-
 }
+*/
+
+// #include <iostream>
+// /*using namespace std;*/
+// #include <string>
+
+// int main() {
+// int x, y;
+// char a[100];
+// std:: string z;
+// std:: cin >> x;
+// std:: cin >> y;
+// getline(std::cin,z);
+// scanf("%s",a);
+// fgets(a,100,stdin);
+// std :: cout<< x << y << z << a;
+
+// }
