@@ -9,11 +9,11 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
 /*
-f(x) = {
+f(x, a, b) = {
     a*x, if x is odd
     b*x, if x is even
 }
-sum from i = 1 to n of f(i)
+sum from i = 1 to n of f(i, a, b)
 for all n ∈ N and a, b ∈ Z
 
 Solution :
@@ -249,11 +249,10 @@ public class AlternatingSequenceBigIntegerTextArea extends JFrame{
             // for(int i = 1; i <= n; i++){
             //     if(i % 2 != 0){
             //         temp = a*++counta;
-            //         this.sum += temp;
             //     } else {
             //         temp = b*++countb;
-            //         this.sum += temp;
             //     }
+            //         this.sum += temp;
             // }
             //too late
             // BigInteger counta = nol, countb = nol, temp = nol;

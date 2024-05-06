@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DecToBinUsingStack",
+            "request": "launch",
+            "mainClass": "PASD.ADT.MyStack.DecToBinUsingStack",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "TestStackList",
+            "request": "launch",
+            "mainClass": "PASD.ADT.MyStack.TestStackList",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
             "name": "AlternatingSequence",
             "request": "launch",
             "mainClass": "Buat_Soal.AlternatingSequence",
