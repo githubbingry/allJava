@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "soal14_15",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal14.soal14_15",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "soal14_3",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal14.soal14_3",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "soal4_3",
+            "request": "launch",
+            "mainClass": "Soal_Pemro_Comp.soal14.soal4_3",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "TC_Gen",
+            "request": "launch",
+            "mainClass": "DariKawan.Fazri.GenerateTestCase.TC_Gen",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
             "name": "DecToBinUsingStack",
             "request": "launch",
             "mainClass": "PASD.ADT.MyStack.DecToBinUsingStack",

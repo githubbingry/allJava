@@ -22,13 +22,7 @@ public class DecToBinUsingStack {
             bin.push(dec%2);
             dec /= 2;
         }
-        String s = "";
-        StackNode cur = bin.head;
-        while(cur != null){
-            s += cur.getValue();
-            cur = cur.getNext();
-        }
-        return s;
+        return getBinary(bin);
     }
 
     static String decToBinBI(String dec){
@@ -39,10 +33,14 @@ public class DecToBinUsingStack {
             bin.push(decBI.mod(dua));
             decBI = decBI.divide(dua);
         }
+        return getBinary(bin);
+    }
+
+    static String getBinary(StackList bin){
         String s = "";
         StackNode cur = bin.head;
         while(cur != null){
-            s += cur.getValueBI();
+            s += cur.getValue();
             cur = cur.getNext();
         }
         return s;

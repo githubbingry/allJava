@@ -39,10 +39,12 @@ public class StackNode {
 
     public void setValueBI(int valueBI) {
         this.valueBI = BigInteger.valueOf(valueBI);
+        this.value = this.valueBI.compareTo(BigInteger.valueOf(Integer.MAX_VALUE)) > 0 ? 0 : this.valueBI.intValue();
     }
 
     public void setValueBI(String valueBI) {
         this.valueBI = new BigInteger(valueBI);
+        this.value = this.valueBI.compareTo(BigInteger.valueOf(Integer.MAX_VALUE)) > 0 ? 0 : this.valueBI.intValue();
     }
 
     public StackNode getNext() {
