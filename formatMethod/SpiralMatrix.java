@@ -39,7 +39,8 @@ public class SpiralMatrix {
         String s = "%"+digit+"d ";
         for (int r = 0; r < matrix.length; r++) {
             for (int c = 0; c < matrix[r].length; c++) {
-                if(c == 0) s = "%"+(hitungDigit(matrix[1][0]))+"d ";
+                if(matrix.length == 1) s = "%1d ";
+                else if(c == 0 && matrix.length > 1) s = "%"+(hitungDigit(matrix[1][0]))+"d ";
                 else s = "%"+digit+"d ";
                 System.out.printf(s, matrix[r][c]);
             }
