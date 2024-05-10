@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestQueueList",
+            "request": "launch",
+            "mainClass": "PASD.ADT.MyQueue.TestQueueList",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "SpiralMatrix",
+            "request": "launch",
+            "mainClass": "formatMethod.SpiralMatrix",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
             "name": "soal14_15",
             "request": "launch",
             "mainClass": "Soal_Pemro_Comp.soal14.soal14_15",

@@ -22,6 +22,11 @@ class Result {
 
     public static int queensAttack(int n, int k, int r_q, int c_q, List<List<Integer>> obstacles) {
     // Write your code here
+        /*
+        banyak step
+        r = right, l = left, u = up, d = down
+        ru = right up, and so on
+        */
         int r = n-c_q;
         int l = c_q-1;
         int u = n-r_q;
