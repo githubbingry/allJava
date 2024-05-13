@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestBinaryTreeNode",
+            "request": "launch",
+            "mainClass": "PASD.ADT.MyTree.TestBinaryTreeNode",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
             "name": "TestQueueList",
             "request": "launch",
             "mainClass": "PASD.ADT.MyQueue.TestQueueList",
