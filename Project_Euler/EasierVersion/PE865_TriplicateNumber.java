@@ -8,6 +8,7 @@ public class PE865_TriplicateNumber {
         //cara efisien lain yaitu buat 3 variabel char untuk ngecheck tanpa menggunakan count
         /*
         untuk //122555211344431113
+        //113133
         iterasi minimum = 2 dengan pengulangan i = 0
         iterasi lainnya = 3 dengan pengulangan i -= 3
          */

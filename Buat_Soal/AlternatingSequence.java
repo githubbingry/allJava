@@ -36,9 +36,8 @@ Baris ketiga berisi n bilangan ai - basis ke i
 
 CONSTRAINT
 0 < t <= 10
-0 < n <= 10^3
-n <= m <= 10^3
--10^3 <= a1, a2, ..., an <= 10^3
+0 < n <= m <= 10^3
+|a_i| <= 10^3, i = {1, 2, 3, ..., n}
 
 OUTPUT FORMAT
 Untuk setiap uji kasus cetak satu bilangan bulat - hasil penjumlahan dari semua suku deret aritmetika

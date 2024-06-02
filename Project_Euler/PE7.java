@@ -6,6 +6,7 @@ public class PE7 {
         while(num != 0){
             if (isPrime(i)){
                 num--;
+                System.out.print(i+" ");
             }
             i++;
         }

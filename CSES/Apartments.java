@@ -1,15 +1,112 @@
-package PASD.ADT.ListNode;
+package CSES;
 
-/*
-head linked list sebagai list node dan kepala
-mengakses anggota list node lain melalui head
-linked list ad bbrpo method :
-1. insert (first, last/append, after)
-2. delete (first, last, after)
-3. toString
-*/
+import java.util.LinkedList;
+import java.util.Scanner;
 
-public class MyLinkedList {
+// import PASD.ADT.ListNode.ListNode;
+// import PASD.ADT.ListNode.MyLinkedList;
+
+public class Apartments {
+    public static void main(String[] args) {
+        Scanner x = new Scanner(System.in);
+        // usingArray(x);
+        // usingLinkedList(x);
+        usingMyList(x);
+        x.close();
+    }
+
+    static void isiArray(int[] a, Scanner x){
+        for(int i = 0; i < a.length; i++){
+            a[i] = x.nextInt();
+        }
+    }
+
+    static void usingArray(Scanner x){
+        int[] n = new int[x.nextInt()];
+        int[] m = new int[x.nextInt()];
+        int k = x.nextInt(), count = 0;
+        isiArray(n, x);
+        isiArray(m, x);
+        for(int i = 0; i < n.length; i++){
+            for(int j = 0; j < m.length; j++){
+                if(Math.abs(m[j] - n[i]) <= k){
+                    count++;
+                    // System.out.println("udin "+i+" "+j);
+                    m[j] = 0;
+                    break;
+                }
+            }
+        }
+        System.out.println(count);
+    }
+
+    static void usingLinkedList(Scanner x){ //lebih lama dari gunakan array?
+        int ns = x.nextInt();
+        int ms = x.nextInt();
+        int k = x.nextInt(), count = 0;
+        LinkedList<Integer> n = new LinkedList<>();
+        LinkedList<Integer> m = new LinkedList<>();
+        isiList(n, ns, x);
+        isiList(m, ms, x);
+        for(int i = 0; i < n.size(); i++){
+            for(int j = 0; j < m.size(); j++){
+                if(Math.abs(m.get(j) - n.get(i)) <= k){
+                    // System.out.println("udin "+i+" "+j);
+                    count++;
+                    m.remove(j);
+                    break;
+                }
+            }
+        }
+        System.out.println(count);
+    }
+
+    static void isiList(LinkedList<Integer> l, int n, Scanner x){
+        for(int i = 0; i < n; i++){
+            l.add(x.nextInt());
+        }
+    }
+
+    static void usingMyList(Scanner x){
+        int ns = x.nextInt();
+        int ms = x.nextInt();
+        int k = x.nextInt(), count = 0;
+        MyLinkedList n = new MyLinkedList();
+        MyLinkedList m = new MyLinkedList();
+        isiMyList(n, ns, x);
+        isiMyList(m, ms, x);
+        ListNode nc = n.head;
+        ListNode mc = m.head;
+        for(int i = 0; i < ns; i++, nc = nc.getNext()){
+            for(int j = 0; j < m.getSize(); j++, mc = mc.getNext()){
+                if(j == 0){
+                    mc = m.head;
+                    if(Math.abs(mc.getValue()-nc.getValue()) <= k){
+                        // System.out.println("uda "+nc.getValue()+" "+mc.getValue()+ " "+m.getSize());
+                        count++;
+                        m.deleteFirst();
+                        break;
+                    }
+                }
+                if (mc.getNext() != null &&(Math.abs(mc.getNext().getValue()-nc.getNext().getValue()) <= k)){
+                    count++;
+                    // System.out.println("udin "+nc.getNext().getValue()+" "+mc.getNext().getValue()+" "+m.getSize());
+                    m.deleteAfter(mc);
+                    break;
+                }
+            }
+        }
+        System.out.println(count);
+    }
+
+    static void isiMyList(MyLinkedList l, int n, Scanner x){
+        for(int i = 0; i < n; i++){
+            l.append(x.nextInt());
+        }
+    }
+}
+
+class MyLinkedList {
     public ListNode head;
     private int size; // optional
 
@@ -277,5 +374,45 @@ public class MyLinkedList {
             idx++;
         }
         return text;
+    }
+}
+
+class ListNode {
+    private int value;
+    private ListNode next;
+
+    public ListNode() {
+        this.value = 0;
+        this.next = null;
+    }
+
+    public ListNode(int value) {
+        this.value = value;
+        this.next = null;
+    }
+
+    public int getValue() {
+        return this.value;
+    }
+
+    public void setValue(int value) {
+        this.value = value;
+    }
+
+    public ListNode getNext() {
+        return this.next;
+    }
+
+    public void setNext(ListNode next) {
+        this.next = next;
+    }
+
+    public void setNext(int value) {
+        this.next = new ListNode(value);
+    }
+
+    @Override
+    public String toString() {
+        return "[value=" + value + "]";
     }
 }

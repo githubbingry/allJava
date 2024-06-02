@@ -5,10 +5,12 @@ import java.util.Scanner;
 public class ternaryVoid {
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
-        boolean a = x.nextBoolean();
-        System.out.println(a);
-        System.out.println(a ? doFunc1(): doFunc2());
-        System.out.println(a ? do1(): do2());
+        // boolean a = x.nextBoolean();
+        // System.out.println(a);
+        // System.out.println(a ? doFunc1(): doFunc2());
+        // System.out.println(a ? do1(): do2());
+        int a = x.nextInt();
+        (a > 0? new runningVoid(a): new runningVoid(a)).run();
         x.close();
     }
 
@@ -38,5 +40,17 @@ public class ternaryVoid {
     static String doFunc2(){
         doVoid2();
         return "";
+    }
+}
+
+class runningVoid implements Runnable {
+    private int a;
+    public runningVoid(int a){
+        this.a = a;
+    }
+
+    public void run(){
+        String t = String.valueOf(this.a);
+        System.out.println(t.length());
     }
 }

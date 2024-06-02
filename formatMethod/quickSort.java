@@ -5,6 +5,7 @@ public class quickSort {
         int[] ar = {1,4,7,2,4,2,9};
         for (int i = 0; i < ar.length; i++){
             System.out.print(ar[i] + " ");
+            
         }
         System.out.println();
         quickSorting(ar, 0, ar.length-1);

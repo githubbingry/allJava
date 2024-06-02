@@ -6,6 +6,125 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrimeMultiples",
+            "request": "launch",
+            "mainClass": "CSES.PrimeMultiples",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "MissingNumberModification",
+            "request": "launch",
+            "mainClass": "Buat_Soal.MissingNumberModification",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "buyan",
+            "request": "launch",
+            "mainClass": "coba.hewan.buyan",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "MakanGorengan",
+            "request": "launch",
+            "mainClass": "coba.gorengan.MakanGorengan",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "TestHewan",
+            "request": "launch",
+            "mainClass": "coba.hewan.TestHewan",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "Gelembungku",
+            "request": "launch",
+            "mainClass": "coba.Gelembungku",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "Balonku",
+            "request": "launch",
+            "mainClass": "coba.Balonku",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "cobaUASPemro",
+            "request": "launch",
+            "mainClass": "coba.cobaUASPemro",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "PE20_FactorialnSum",
+            "request": "launch",
+            "mainClass": "Project_Euler.PE20_FactorialnSum",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "PE20_FactorialDigitSum",
+            "request": "launch",
+            "mainClass": "Project_Euler.PE20_FactorialDigitSum",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearchTree",
+            "request": "launch",
+            "mainClass": "coba.BinarySearchTree",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "TestCircle",
+            "request": "launch",
+            "mainClass": "PASD.ADT.CircularList.TestCircle",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "CollatzString",
+            "request": "launch",
+            "mainClass": "Buat_Soal.CollatzString",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "PowerSum",
+            "request": "launch",
+            "mainClass": "Buat_Soal.PowerSum",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "pangkat",
+            "request": "launch",
+            "mainClass": "coba.pangkat",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "Apartments",
+            "request": "launch",
+            "mainClass": "CSES.Apartments",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
+            "name": "latihanBooelanAlgebra",
+            "request": "launch",
+            "mainClass": "Struktur_Diskrit.latihanBooelanAlgebra",
+            "projectName": "src_4d13d442"
+        },
+        {
+            "type": "java",
             "name": "MyMergeSort",
             "request": "launch",
             "mainClass": "formatMethod.MyMergeSort",
